@@ -1,0 +1,88 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #292929;
+  background-image: url(http://playbook.thoughtbot.com/images/blackboard.jpg);
+  color: #111;
+}
+
+h1, h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 15px;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+table {
+  display: table;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th {
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px 10px 5px 0px
+}
+
+ul, ol {
+  list-style: square;
+  margin-left: 30px;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  background-color: #eee;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+#container section {
+  background-color: #292929;
+  background-image: url(http://playbook.thoughtbot.com/images/blackboard.jpg);
+  color: #aaa;
+  font-weight: 200;
+  padding: 30px;
+}
+#container section a {
+  color: #aaa;
+}
+#container section h2 a {
+  color: #eee;
+}
+#container section a:hover {
+  color: #AD141E;
+  text-decoration: none;
+}
+
+#container a {
+  color: #AD141E;
+  text-decoration: none;
+}
+#container a:hover {
+  color: #AD141E;
+  text-decoration: underline;
+}
+#container a:visited {
+  color: #AD141E;
+}
+
