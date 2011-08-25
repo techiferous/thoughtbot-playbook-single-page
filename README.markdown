@@ -8,8 +8,12 @@ To run:
 
       ruby playbook.rb
 
-This will generate the playbook in file called `out.html`.
+This will generate the playbook in file called `playbook.html`.
 
-Pleaes fork and improve at will.
+You can see a version of the output here:
+
+<http://danielchoi.com/software/thoughtbot-playbook.html>
+
+There is no styling. Pleaes fork and improve at will.
 
 

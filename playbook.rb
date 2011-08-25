@@ -66,6 +66,6 @@ doc.search('a').each do |a|
   end
 end
 puts 
-puts "Writing result out to out.html"
-File.open("out.html", 'w') {|f| f.puts doc.serialize}
+puts "Writing result out to playbook.html"
+File.open("playbook.html", 'w') {|f| f.puts doc.serialize}
 
