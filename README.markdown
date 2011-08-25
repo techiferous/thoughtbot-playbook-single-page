@@ -14,7 +14,7 @@ You can see a version of the output here:
 
 <http://danielchoi.com/software/thoughtbot-playbook.html>
 
-There is no styling. Pleaes fork and improve at will.
+Please fork and improve at will.
 
 A huge thanks to THOUGHTBOT for sharing their accumulated wisdom. 
 
