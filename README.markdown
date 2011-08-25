@@ -16,4 +16,5 @@ You can see a version of the output here:
 
 There is no styling. Pleaes fork and improve at will.
 
+A huge thanks to THOUGHTBOT for sharing their accumulated wisdom. 
 
