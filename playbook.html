@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+</head>
+<body>
+<section><p><a href="#hello">Hello, what’s this?</a></p>
+
+<h2><a href="#getting_started">Getting started</a></h2>
+
+<p><a href="#getting_started_vision">Vision</a>. <a href="#getting_started_strengths">Strengths</a>. <a href="#getting_started_customer_development">Customer development</a>.</p>
+
+<h2><a href="#choosing_platforms">Choosing platforms</a></h2>
+
+<p><a href="#choosing_platforms_web_apps">Web apps</a>. <a href="#choosing_platforms_mobile_apps">Mobile apps</a>. <a href="#choosing_platforms_programming_languages">Programming languages</a>. <a href="#choosing_platforms_frameworks">Frameworks</a>. <a href="#choosing_platforms_databases">Databases</a>. <a href="#choosing_platforms_software_licenses">Software licenses</a>.</p>
+
+<h2><a href="#building_a_team">Building a team</a></h2>
+
+<p><a href="#building_a_team_roles">Roles</a>. <a href="#building_a_team_outsourcing">Outsourcing</a>. <a href="#building_a_team_do_it_yourself">Do it yourself</a>. <a href="#building_a_team_hiring">Hiring</a>. <a href="#building_a_team_face_time">Face time</a>.</p>
+
+<h2><a href="#working_in_feedback_loops">Working in feedback loops</a></h2>
+
+<p><a href="#working_in_feedback_loops_discussions">Discussions</a>. <a href="#working_in_feedback_loops_sketches">Sketches</a>. <a href="#working_in_feedback_loops_user_stories">User stories</a>. <a href="#working_in_feedback_loops_pair_programming">Pair programming</a>. <a href="#working_in_feedback_loops_feature_branch_code_reviews">Feature branch code reviews</a>.</p>
+
+<h2><a href="#finding_a_rhythm">Finding a rhythm</a></h2>
+
+<p><a href="#finding_a_rhythm_sustainable_pace">Sustainable pace</a>. <a href="#finding_a_rhythm_test_driven_development">Test-driven development</a>. <a href="#finding_a_rhythm_daily_standups">Daily standups</a>. <a href="#finding_a_rhythm_weekly_iterations">Weekly iterations</a>. <a href="#finding_a_rhythm_monthly_rotations">Monthly rotations</a>.</p>
+
+<h2><a href="#setting_up_technical_infrastructure">Setting up technical infrastructure</a></h2>
+
+<p><a href="#setting_up_technical_infrastructure_domain_names_ssl_certificates">Domain names and SSL certificates</a>. <a href="#setting_up_technical_infrastructure_application_hosting">Application hosting</a>. <a href="#setting_up_technical_infrastructure_asset_hosting">Asset hosting</a>. <a href="#setting_up_technical_infrastructure_transactional_email">Transactional email</a>. <a href="#setting_up_technical_infrastructure_performance_monitoring">Performance monitoring</a>. <a href="#setting_up_technical_infrastructure_error_tracking">Error tracking</a>.</p>
+
+<h2><a href="#choosing_process_tools">Choosing process tools</a></h2>
+
+<p><a href="#choosing_process_tools_business_email_and_docs">Business email and docs</a>. <a href="#choosing_process_tools_version_control">Version control</a>. <a href="#choosing_process_tools_project_management">Project management</a>. <a href="#choosing_process_tools_customer_support">Customer support</a>. <a href="#choosing_process_tools_payment_processing">Payment processing</a>.</p>
+
+<h2><a href="#understanding_design">Understanding design</a></h2>
+
+<p><a href="#understanding_design_user_experience">User experience</a>. <a href="#understanding_design_visual_design">Visual design</a>. <a href="#understanding_design_usability_testing">Usability testing</a>. <a href="#understanding_design_agile_design">Agile design</a>.</p>
+
+<h2><a href="#measuring_results">Measuring results</a></h2>
+
+<p><a href="#measuring_results_aarrr">AARRR</a>. <a href="#measuring_results_cohorts">Cohorts</a>. <a href="#measuring_results_viral_coefficient">Viral coefficient</a>. <a href="#measuring_results_tools">Tools</a>. <a href="#measuring_results_a_b">A/B testing</a>.</p>
+
+<h2><a href="#budgeting">Budgeting</a></h2>
+
+<p><a href="#budgeting_cost">Cost</a>. <a href="#budgeting_fundraising">Fundraising</a>.</p>
+
+<h2><a href="#using_trends">Using trends</a></h2>
+
+<p><a href="#using_trends_social_sharing">Social sharing</a>. <a href="#using_trends_game_mechanics">Game mechanics</a>. <a href="#using_trends_location_awareness">Location-awareness</a>. <a href="#using_trends_deals">Deals</a>.</p>
+
+<h2><a href="#working_in_boston">Working in Boston</a></h2>
+
+<p><a href="#working_in_boston_places">Places</a>. <a href="#working_in_boston_people">People</a>. <a href="#working_in_boston_events">Events</a>.</p>
+      </section><div><a name="hello"></a></div>
+<h1 id="hello">Hello</h1>
+
+<p>Hello, we’re thoughtbot.</p>
+
+<p>We build web and mobile applications for startups in Boston and New York City. We aim to create great user experiences powered by well-made software. We aim to get our clients to market quickly. We embrace change as they absorb early customer feedback.</p>
+
+<p>This is our playbook.</p>
+
+<p>It is filled with the things we’ve learned based on experience and study. It’s intended for anyone who wants to build web and mobile applications, bring them to market, and make customers happy.</p>
+
+<p>It’s licensed as <a href="http://creativecommons.org/licenses/by-nc/3.0">Creative Commons Attribution-NonCommercial</a>.</p>
+<a href="http://creativecommons.org/licenses/by-nc/3.0">
+  <img src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" alt="Licensed under Creative Commons Attribution-NonCommercial"></a>
+<h2 id="why_playbook">Why “playbook”?</h2>
+
+<p>We originally called this a “handbook” but didn’t want people to feel preached to. Everyone’s situation is different, with its own context.</p>
+
+<p>So, we offer “plays” that have worked for us and we repeatedly call. We hope others will choose, à la carte, tools and techniques they believe might also work for them.</p>
+
+<h2 id="our_other_stuff">Our other stuff</h2>
+
+<p>In addition to consulting, we run products of our own:</p>
+
+<ul>
+<li>
+<a href="http://airbrakeapp.com">Airbrake</a>, the app error app</li>
+
+<li>
+<a href="https://www.apptrajectory.com">Trajectory</a>, the app planning app</li>
+
+<li>
+<a href="http://copycopter.com">Copycopter</a>, the app copy app</li>
+
+<li>
+<a href="http://radishapp.com/">Radish</a>, the Redis visibility app</li>
+</ul>
+<p>We wrote a <a href="http://workshops.thoughtbot.com/backbone-js-on-rails">Backbone.js on Rails</a> eBook.</p>
+
+<p>We also run <a href="http://workshops.thoughtbot.com/">workshops</a> almost every week.</p>
+
+<p>For VCs, MBAs, and product managers:</p>
+
+<ul>
+<li><a href="http://workshops.thoughtbot.com/courses/9">Everybody Codes</a></li>
+</ul>
+<p>For web designers:</p>
+
+<ul>
+<li><a href="http://workshops.thoughtbot.com/courses/10">Advanced HTML &amp; CSS</a></li>
+
+<li><a href="http://workshops.thoughtbot.com/courses/2">Fundaments of Visual Design</a></li>
+</ul>
+<p>For web developers:</p>
+
+<ul>
+<li><a href="http://workshops.thoughtbot.com/courses/3">Intro to Ruby on Rails</a></li>
+
+<li><a href="http://workshops.thoughtbot.com/courses/1">Test-Driven Rails</a></li>
+
+<li><a href="http://workshops.thoughtbot.com/courses/8">Scaling Rails</a></li>
+
+<li><a href="http://workshops.thoughtbot.com/courses/5">Rails Antipatterns</a></li>
+</ul>
+<p>For mobile developers:</p>
+
+<ul>
+<li><a href="http://workshops.thoughtbot.com/courses/4">Intro to Android Development</a></li>
+
+<li><a href="http://workshops.thoughtbot.com/courses/7">Intro to iOS Development</a></li>
+</ul>
+<h2 id="credits">Credits</h2>
+
+<p>Thank you to the following folks for influencing our ideas and work habits whether they know it or not.</p>
+
+<ul>
+<li><a href="http://thoughtbot.com/">Our clients</a></li>
+
+<li>
+<a href="https://twitter.com/#!/37signals">37signals</a>, Ruby on Rails, software simplicity</li>
+
+<li>
+<a href="https://twitter.com/#!/kentbeck">Kent Beck</a>, TDD</li>
+
+<li>
+<a href="https://twitter.com/#!/pivotallabs">Pivotal Labs</a>, consulting for startups, agile</li>
+
+<li>
+<a href="https://twitter.com/#!/sgblank">Steve Blank</a>, customer development</li>
+
+<li>
+<a href="https://twitter.com/#!/github">Github</a>, awesome code workflow</li>
+
+<li>
+<a href="https://twitter.com/#!/jonpierce">Jon Pierce</a>, <a href="https://twitter.com/#!/billwarner">Bill Warner</a>, Boston community building</li>
+
+<li>
+<a href="https://twitter.com/#!/antrod">Antonio Rodriguez</a>, everybody codes</li>
+
+<li>
+<a href="https://twitter.com/#!/BostonVC">David Skok</a>, SaaS economics</li>
+
+<li>
+<a href="https://twitter.com/#!/davemcclure">Dave McClure</a>, AARRR metrics</li>
+
+<li>
+<a href="https://twitter.com/#!/EdwardTufte">Edward Tufte</a>, information design</li>
+
+<li>
+<a href="https://twitter.com/#!/zeldman">Jeffrey Zeldman</a>, trinity of web standards</li>
+</ul>
+<div><a name="getting_started"></a></div>
+<h1 id="getting_started">Getting started</h1>
+
+<p>When inspiration strikes, what do we do? Start coding? Sketch interface ideas? Socialize the idea with friends?</p>
+
+<p>We’ve felt the itch. Some of us have spent tens of thousands of dollars of our personal savings on startup ideas.</p>
+
+<p>We’ve seen up close dozens of web startup successes and failures.</p>
+
+<p>Some of our clients have gone out of business. Some were methodical and had hard numbers to hit that when they missed, immediately shut down the project, content with their decision and capped cost. Some have <a href="http://www.crunchbase.com/company/thoughtbot">raised tons of money</a> from venture capitalists and are going strong today.</p>
+
+<p>The reality is it’s tough out there. Let’s give ourselves a fighting chance with a little preparation and forethought.</p>
+
+<ul>
+<li>We’ll clearly define the product’s <a href="#getting_started_vision">vision</a>
+</li>
+
+<li>We’ll consider our <a href="#getting_started_strengths">strengths</a> as a web-based product</li>
+
+<li>We’ll do rigorous <a href="#getting_started_customer_development">customer development</a>
+</li>
+</ul>
+<h2 id="nonbelievers">Non-believers</h2>
+
+<p>We don’t believe in extensive requirements documents. They’re:</p>
+
+<ul>
+<li>too time consuming to create (expensive)</li>
+
+<li>interpreted differently by each person on the team (confusing)</li>
+</ul>
+<p>Instead, we advocate for:</p>
+
+<ul>
+<li>a clear vision of the product</li>
+
+<li>sketches of user interfaces</li>
+
+<li>working software</li>
+
+<li>responding to change</li>
+</ul>
+<h2 id="responding_to_change">Responding to change</h2>
+
+<p>No product survives first contact with customers. The original concept and features will change. This is normal and natural.</p>
+
+<p>Since we know this happens, it further devalues extensive documents. We’d prefer not to waste our time in the first place.</p>
+    
+<div><a name="getting_started_vision"></a></div>
+<h1 id="vision">Vision</h1>
+
+<p><a href="http://www.youtube.com/watch?v=qp0HIF3SfI4">Why does this company exist?</a> What problem are we solving? For whom are we solving it?</p>
+
+<p>Examples describing our past clients:</p>
+
+<ul>
+<li>It’s a tragedy that great unkown writers are toiling in obscurity.</li>
+
+<li>Friends who are geographically disperse are unable to have conversations that feel as intimate as a dinner party.</li>
+
+<li>We want to eat dinner at home but are too tired to cook.</li>
+
+<li>Military families have gear that other military families need.</li>
+</ul>
+<p>We need a clear user-centered mission to guide us. Without one, no one on the team can do a good job.</p>
+
+<h2 id="one_visionary">One visionary</h2>
+
+<p>When the car industry moved from Detroit to Tokyo in the 80s, one difference in process was how the product vision was managed.</p>
+
+<p>In Detroit, marketing, sales, and others influenced product decisions. After a product was pushed around by everyone who felt they needed to make their impact, it was more Frankenstein than Picasso.</p>
+
+<p>In Tokyo, a single person was responsible for product vision, keeping everyone aligned on that vision. They had total veto power.</p>
+
+<p>The single person who is the source and caretaker of the product vision should be our client’s CEO. We depend on that person to run interference on investors, family members, friends, customers, or others who try and push the product around.</p>
+
+<h2 id="from_the_heart">From the heart</h2>
+
+<p>All other things being equal, we like to be inspired by the vision. Bill Warner’s TEDxBoston talk is a must-watch on the topic:</p>
+
+<p><a href="http://tedxboston.org/speaker/warner">How to build a startup company from the heart</a></p>
+    
+<div><a name="getting_started_strengths"></a></div>
+<h1 id="strengths">Strengths</h1>
+
+<p>Perhaps the most sustainable competitive advantages for web products today are:</p>
+
+<ul>
+<li><a href="#understanding_design_user_experience">user experience</a></li>
+
+<li>unique data</li>
+</ul>
+<p>Think about products like Twitter and Foursquare. Etsy and Kickstarter. Quora and Instagram. Amazon and Netflix.</p>
+
+<p>Their go-to-market strategy followed the <a href="http://cdixon.org/2010/12/26/the-thin-edge-of-the-wedge-strategy/">thin edge of the wedge</a> pattern. They focused on a small subset of features. Designing a valuable user experience came first.</p>
+
+<p>They developed a meaningful relationship with their customers. In the process, they created incredibly valuable unique data sets.</p>
+
+<p>Competitors can copy their operations or their look and feel. They can reverse-engineer their systems. But they’ll be derivatives of the original and consumers are too savvy to settle for copycats.</p>
+
+<h2 id="differentiation_is_overrated">Differentiation is overrated</h2>
+
+<p>Think about those products again. Twitter was called a “micro-blogging” service by the press for a long time. However, the vision for it was never “like blogging, but shorter.”</p>
+
+<p>It was more like a ”<a href="http://techcrunch.com/2010/04/27/jack-dorsey-fred-wilson-twitter-book-excerpt/">real-time SMS dispatch system</a>.”</p>
+
+<p>We hear a lot of product pitches that are “like X, but with Y twist.” Most of the times, the twist is a superficial difference.</p>
+
+<p>Instead of being different, those products cared about their own users, solving a problem in their own way, and trying to make their own product better.</p>
+
+<h2 id="counterexamples">Counter-examples</h2>
+
+<p>There are some products with poor user experiences like eBay, PayPal, and Craigslist that remain popular. However, their network effects, spam filters, reputation systems, etc. built huge data sets that make them compelling.</p>
+
+<p>It’s hard to think of counter-examples that don’t have either great user experience or a unique data set. <a href="http://thoughtbot.com/contact/">Contact us</a> if you have one.</p>
+    
+<div><a name="getting_started_customer_development"></a></div>
+<h1 id="customer_development">Customer development</h1>
+
+<p>The customer development warcry is “get outside the building.”</p>
+
+<p>Strategy sessions in a conference room aren’t where great products are made. We might start at the whiteboard, but we should quickly:</p>
+
+<ul>
+<li>Talk to customers to figure out their problems.</li>
+
+<li>Build something minimal to solve those problems.</li>
+
+<li>Iterate until we’re confident we’ve solved the problem well. In the lingo, this is called “Product/Solution Fit.”</li>
+</ul>
+<p>Those activities make up a “Customer Discovery” phase, determining which customers we want and which ones we’ll avoid.</p>
+
+<p>People are unintentional liars, though. They’re good at describing their problems but bad at describing what solution they need. We need to apply our own judgment at all times.</p>
+
+<p>Next comes “Customer Validation.” Basically, figuring out the answer to the question, “can this be a profitable business?”</p>
+
+<ul>
+<li>Launch with a simple sign up landing page</li>
+
+<li>Make a few tweaks based on early feedback</li>
+
+<li>Get people talking about the product</li>
+</ul>
+<p>Most startups never exit the Customer Validation phase. It can be difficult to make the economics work.</p>
+
+<h2 id="getting_people_talking_about_the_product">Getting people talking about the product</h2>
+
+<p>We’re pretty good at product development so this item tends to have the most variance on projects we see.</p>
+
+<p>We advocate using <a href="http://www.amazon.com/Inbound-Marketing-Found-Google-Social/dp/0470499311">Inbound Marketing</a> principles. Like customer development, it’s more common sense than rocket science.</p>
+
+<p>The idea is to create content to attract people Googling for your service or talking on social media. It’s not intrusive like advertising and provides a slower, longer-term trickle of traffic.</p>
+
+<h2 id="right_action_right_time">Right action, right time</h2>
+
+<p>Don’t worry about viral landing pages or viral private betas until the tail end of Customer Discovery.</p>
+
+<p>Our philosophy is that a handful of “friendly first contacts” are all you need to test your hypotheses early on. Collecting thousands of emails won’t help you learn faster.</p>
+
+<p>As you get closer to launch, round up a couple dozen more people to help find nasty bugs or confusing interfaces and flows that you can’t see anymore because you’re too close to the product.</p>
+
+<p>When you launch, <em>then</em> you put up a landing page where people can <em>actually sign up for the real thing with their email address</em>. You’ll get a very similar set of people signing up when you launch than you would during that interim period when you’re in private beta.</p>
+    
+<div><a name="choosing_platforms"></a></div>
+<h1 id="platform_choice">Platform choice</h1>
+
+<p>Very early, we have to decide “on which platforms will we depend?”</p>
+
+<p>The answer depends on our ideas for solving these users’ problems. For example, if they’re construction workers on a job site, a mobile or tablet interface might be the best choice.</p>
+
+<p>After considering what’s best for users, what’s best for us?</p>
+
+<ul>
+<li>The tools are open source with a strong community</li>
+
+<li>The tools make the designers and developers happy</li>
+
+<li>The tools make it easy to create and iterate quickly</li>
+</ul>
+<p>Open source (HTML, CSS, Javascript, Ruby on Rails, jQuery, jQuery Mobile, UNIX, vim, Postgres, Redis, etc) tends to be higher-quality software that is on the cutting edge of technology and best practices. It also helps avoid vendor lock-in.</p>
+
+<p>Tools that make makers happy will make them more productive.</p>
+
+<p>Web applications lend themselves to creating and iterating quickly. We’re able to deploy multiple times a day. We can record users’ actions in real-time to make adjustments for them. We don’t need to go through an approval process (like the App Store) or deal with the vagaries of customers’ machines (like desktop software).</p>
+
+<p>For these reasons, we regularly choose these platforms:</p>
+
+<ul>
+<li><a href="#choosing_platforms_web_apps">Web apps</a></li>
+
+<li><a href="#choosing_platforms_mobile_apps">Mobile apps</a></li>
+</ul>
+<p>To make those apps, we choose among a subset of platforms:</p>
+
+<ul>
+<li><a href="#choosing_platforms_programming_languages">Programming languages</a></li>
+
+<li><a href="#choosing_platforms_frameworks">Frameworks</a></li>
+
+<li><a href="#choosing_platforms_databases">Databases</a></li>
+
+<li><a href="#choosing_platforms_software_licenses">Software licenses</a></li>
+</ul>
+<div><a name="choosing_platforms_web_apps"></a></div>
+<h1 id="web_apps">Web apps</h1>
+
+<p>In our experience, <a href="#choosing_platforms_ruby_on_rails">Ruby on Rails</a> web apps tend to be fast to market and have a low total cost of ownership.</p>
+
+<p>We don’t have <a href="http://www.agilemodeling.com/essays/proof.htm">quantitive data</a> to prove it’s “the fastest and cheapest”, but have some theories why it’s at least “fast and cheap”:</p>
+
+<ul>
+<li>It’s highly conventional. One Rails app’s codebase looks very similar to other Rails app’s codebases.</li>
+
+<li>There’s a strong relationship between agile and Ruby communities. Ruby developers tend to be “test-infected” and work hard to avoid repeated code.</li>
+</ul>
+<p>Maybe the greatest compliment we can pay to Rails is that we’ve made a huge financial commitment to it, essentially betting the future of the company on it in 2005. We’re still here.</p>
+
+<p>In return, we’re proud of our contributions to the community, in particular our <a href="http://thoughtbot.com/community/">open source libraries</a> and frequent articles on our blog, <a href="http://robots.thoughtbot.com">Giant Robots Smashing Into Other Giant Robots</a>.</p>
+
+<h2 id="open_source_and_web_standards">Open source and web standards</h2>
+
+<p>Use open source software (OSS) and web standards such as HTTP, HTML, CSS, and Javascript. Why?</p>
+
+<ul>
+<li>High quality – these tools have been built by people who need them to solve their own problems</li>
+
+<li>Avoid vendor lock-in – no one owns the tech or can steer it in a direction that you don’t want to follow</li>
+
+<li>Flexibility to switch components – clean interfaces lead to interchangeable parts</li>
+
+<li>Works on many devices – projects are typically used by people who need it work on their own platform/hardware</li>
+
+<li>Battle-tested – OSS projects are constantly thrown up against the needs of actual real world problems</li>
+
+<li>Security, all bugs are shallow when seen by many eyes – thousands of people want the project to function flawlessly</li>
+</ul>
+<div><a name="choosing_platforms_mobile_apps"></a></div>
+<h1 id="mobile_apps">Mobile apps</h1>
+
+<p>The first thing most people ask when talking about mobile is “native or mobile web”? That might be the wrong question.</p>
+
+<p>Consider this: “mobile” refers to the user, not the technology.</p>
+
+<p>Everything about how you design a mobile application has to be in the context of that idea. It raises questions like:</p>
+
+<ul>
+<li>Are they moving?</li>
+
+<li>Are they relaxed on a couch?</li>
+
+<li>How dexterous are their fingers?</li>
+</ul>
+<p>In many ways, “mobile” just means “small screen.” We have to become the Hemingway of copywriting, staying concise in content and calls to actions.</p>
+
+<p>The second thing people like to focus on is market share of Android phones vs. iPhones vs. Blackberries, etc. Again, this isn’t as important as “who is your target audience?”</p>
+
+<p>One thing all modern “smart” phones have in common is the ability to render HTML. For most apps, mobile web is therefore a good place to start. A mobile web app affords advantages like:</p>
+
+<ul>
+<li>Create and iterate quickly.</li>
+
+<li>Deploy new versions multiple times a day.</li>
+
+<li>Reach the broadest possible audience.</li>
+</ul>
+<p>Most people also don’t realize that HTML5 is making features available that were previously only available “natively”:</p>
+
+<ul>
+<li><a href="#using_trends_location_awareness_">GPS (geo-location)</a></li>
+
+<li>Accelerometer</li>
+</ul>
+<p>This trend will continue. In coming years, expect other previously “native” elements to be available from mobile web apps:</p>
+
+<ul>
+<li>Camera</li>
+
+<li>Calendar</li>
+
+<li>Address book</li>
+</ul>
+<p>In the meantime, native capabilities will continue to push the boundaries forward with features like <a href="http://en.wikipedia.org/wiki/Near_field_communication">Near Field Communication</a> or maybe built-in credit card swipes.</p>
+
+<p>For small teams on limited budgets, the mobile web app approach usually makes sense, especially when you expose an API so that third parties can create your Android/iPhone/Blackberry/etc apps.</p>
+
+<p>Eventually, you may want to bring those capabilities in-house if it’s a critical part of your business but in general, it’s cheaper and faster to take this approach.</p>
+    
+<div><a name="choosing_platforms_programming_languages"></a></div>
+<h1 id="programming_languages">Programming languages</h1>
+
+<p>Ruby or Python? Java? Is Ruby on Rails a language? Is Node.js?</p>
+
+<p>For developers, these questions are pretty easy. For others, they’re very confusing. Here’s a quick breakdown of languages:</p>
+
+<ul>
+<li>Ruby: our server-side preference</li>
+
+<li>Javascript: our client-side preference</li>
+
+<li>Coffeescript: pleasant language on top of Javascript</li>
+</ul>
+<p>We use all three of those languages regularly. “Server-side” means code that is run on clusters of servers provided by your <a href="#setting_up_technical_infrastructure_application_hosting_">application hosting company</a>. “Client-side” means code that is run in the web browsers of your users.</p>
+
+<p>Some languages you might choose as an alternative to Ruby:</p>
+
+<ul>
+<li>Python: most similar to Ruby</li>
+
+<li>PHP: widely used by freelancers</li>
+
+<li>Java: widely used in enterprises</li>
+</ul>
+<p>Some languages you might use rarely for specific tasks, often performance-related:</p>
+
+<ul>
+<li>Erlang: great for highly-concurrent code</li>
+
+<li>C: the programming lingua franca</li>
+</ul>
+<p>Some languages you might use if you’re writing native mobile apps:</p>
+
+<ul>
+<li>Objective-C: the language for iOS apps</li>
+
+<li>Scala: pleasant language on top of Java, <a href="http://robots.thoughtbot.com/post/5836463058/scala-a-better-java-for-android">can be used for Android development</a>
+</li>
+</ul>
+<h2 id="languages_versus_frameworks">Languages versus frameworks</h2>
+
+<p>Ruby on Rails, Node.js, and other libraries are <a href="#choosing_platforms_frameworks">frameworks</a> that require you know the underlying language such as Ruby or Javascript.</p>
+    
+<div><a name="choosing_platforms_frameworks"></a></div>
+<h1 id="frameworks">Frameworks</h1>
+
+<p>A framework is a library that makes performing a particular task in a programming language easier. Just like the framework of a house, it’s there when you begin programming and is always there giving the program structure and support.</p>
+
+<p>It can be difficult to switch from one framework to another. The more code that’s written specifically for Rails, the harder it will be to switch to Django. That would approach “total rewrite” territory. If an app is lightly using Prototype for client-side interaction, it is relatively easy to switch to jQuery.</p>
+
+<p>Here are some of our favorite frameworks:</p>
+
+<ul>
+<li>Ruby on Rails</li>
+
+<li>jQuery</li>
+
+<li>jQuery Mobile</li>
+
+<li>Backbone.js</li>
+</ul>
+<div><a name="choosing_platforms_databases"></a></div>
+<h1 id="databases">Databases</h1>
+
+<p>If <a href="#getting_started_strengths">unique data</a> is one of our most important advantages, choosing the right databases is also important.</p>
+
+<p>For data that absolutely must be saved and stored correctly, we use <a href="http://www.postgresql.org/">PostgreSQL</a> (we usually refer to it as “Postgres”).</p>
+
+<p>It’s a 30 year old open source database that is highly respected, well supported by documentation and hosting providers, and easily used by any developer who knows the SQL standard.</p>
+
+<h2 id="nosql">NoSQL</h2>
+
+<p>In recent years, a movement called <a href="http://en.wikipedia.org/wiki/NoSQL">NoSQL</a> has gained popularity. Translated to “not only SQL”, tremendous effort has been made to create different kinds of databases for different use cases.</p>
+
+<p>They are often based off academic or industry research. <a href="http://nosqlsummer.org/papers">This is the best collection of NoSQL papers</a> we’ve seen. Great stuff from Amazon, Google, and others.</p>
+
+<p>Our most frequently used NoSQL databases are:</p>
+
+<ul>
+<li>Redis (data that is high-write, frequently changes, in moderate amounts)</li>
+
+<li>MongoDB (data that is high-write, rarely changes, in large amounts)</li>
+</ul>
+<h2 id="redis">Redis</h2>
+
+<p><a href="http://redis.io">Redis</a> is reliable, open-source, and simple. It’s easy to predict how it will perform, and it can flexibly model different data sets.</p>
+
+<p>We use Redis for:</p>
+
+<ul>
+<li>counters / downloads / hits / votes</li>
+
+<li>rate limiting</li>
+
+<li>timelines / activity feeds / inboxes</li>
+
+<li>queues and background jobs</li>
+
+<li>ad serving</li>
+
+<li>friends / followers / social relationships</li>
+
+<li>tags</li>
+
+<li>leaderboards</li>
+
+<li>sessions</li>
+
+<li>transient data like <a href="http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf">CSRF tokens</a>
+</li>
+
+<li>A/B tests</li>
+</ul>
+<p>We typically use <a href="https://redistogo.com/">Redis to Go</a> to host our production Redis databases.</p>
+
+<h2 id="mongodb">MongoDB</h2>
+
+<p><a href="http://www.mongodb.org/">MongoDB</a>, which we usually refer to as “Mongo”, is scalable, open-source, fast, and has great options for querying.</p>
+
+<p>We use Mongo for:</p>
+
+<ul>
+<li>location / geospatial data</li>
+
+<li>data that is okay to lose portions of, like logging</li>
+
+<li>error data in <a href="http://airbrakeapp.com">Airbrake</a>
+</li>
+</ul>
+<p>We typically use <a href="https://mongohq.com/home">MongoHQ</a> to host our production Mongo databases.</p>
+    
+<div><a name="choosing_platforms_software_licenses"></a></div>
+<h1 id="software_licenses">Software licenses</h1>
+
+<p>There are many open source software licenses. In contrast with a proprietary license, the source code of the program is made available for review, modification and redistribution.</p>
+
+<p>The difference between open source licenses is what you can and can’t do with the source code.</p>
+
+<p>Open source licenses can be divided in two categories: permissive and copyleft. Permissive examples include:</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/BSD_licenses">Berkeley Software Distribution (BSD) licenses</a></li>
+
+<li><a href="http://en.wikipedia.org/wiki/MIT_License">MIT license</a></li>
+
+<li><a href="http://en.wikipedia.org/wiki/Apache_License">Apache license</a></li>
+</ul>
+<p>A copyleft example is the <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License">General Public License (GPL)</a>.</p>
+
+<p>They all have the purpose of establishing the copyright holder for the software, granting users the right to copy, modify and redistribute it, protecting the copyright holder from any potential guarantees that the software may provide (software is provided as-is), and optionally imposing some restrictions.</p>
+
+<p>Permissive licenses let you to modify a program, redistribute it, and even sell it. You can embed or link code with other programs without restriction or explicit permission by the copyright holder.</p>
+
+<p>Copyleft licenses only allow you to link or distribute code with other code that has the same license. It also forces modifications to be released under the same license.</p>
+
+<p>Combining anything with the GPL makes it GPL. This is what’s referred to as <strong>copyleft</strong>. It’s a play on the word copyright that enforces some restrictions on the opposite side of your traditional, proprietary and commercial licenses.</p>
+
+<p>Non-copyleft licenses do not enforce derivative works to also be open source.</p>
+
+<p>Some software is released under a dual license: both a permissive and copyleft license. This provides developers who use the dual licensed code to apply the license that better suits their needs.</p>
+
+<p>Most of the software we use has a permissive license:</p>
+<table>
+<thead><tr>
+<th>Language or framework</th>
+<th>License</th>
+<th>Comment</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Ruby (MRI)</td>
+<td style="text-align: left;">Ruby license</td>
+<td style="text-align: left;">BSD based</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ruby on Rails</td>
+<td style="text-align: left;">MIT</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">jQuery</td>
+<td style="text-align: left;">Dual MIT and GPL</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead><tr>
+<th>Infrastructure</th>
+<th>License</th>
+<th>Comment</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Apache httpd</td>
+<td style="text-align: left;">Apache License v2.0</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">Thin</td>
+<td style="text-align: left;">Ruby license</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">Mongrel</td>
+<td style="text-align: left;">Ruby license</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">nginx</td>
+<td style="text-align: left;">2-clause BSD-like license</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">PostgreSQL</td>
+<td style="text-align: left;">PostgreSQL License</td>
+<td style="text-align: left;">BSD based</td>
+</tr>
+<tr>
+<td style="text-align: left;">MySQL</td>
+<td style="text-align: left;">Dual GPL/GPL with exception/commercial</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">Redis</td>
+<td style="text-align: left;">BSD</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">Linux</td>
+<td style="text-align: left;">GPL v2</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead><tr>
+<th>Other tools</th>
+<th>License</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Git</td>
+<td style="text-align: left;">GPL v2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Delayed Job</td>
+<td style="text-align: left;">MIT</td>
+</tr>
+<tr>
+<td style="text-align: left;">Resque</td>
+<td style="text-align: left;">MIT</td>
+</tr>
+</tbody>
+</table>
+<div><a name="building_a_team"></a></div>
+<h1 id="building_a_team">Building a team</h1>
+
+<p>This is a typical dilemma for folks trying to get a web business going:</p>
+
+<ul>
+<li>Should I find a technical co-founder?</li>
+
+<li>Should I hire a freelancer? A development firm?</li>
+
+<li>Should I try to build something myself?</li>
+</ul>
+<h2 id="the_goal">The goal</h2>
+
+<p>A <a href="#building_a_team_roles">perfect team</a> in our opinion is a visionary, a designer, and a developer. The muscles necessary to success are already developed and in-house. Everyone is <a href="http://en.wikipedia.org/wiki/T-shaped_skills">T-shaped</a>, with a depth of expertise and ability to collaborate cross-discipline.</p>
+
+<p>Earlier stage companies tend to employ generalists. In order to move quickly, team members have to be <strong>ambidextrous</strong>. We sometimes referto this concept as <a href="http://workshops.thoughtbot.com/courses/9">everybody codes</a>.</p>
+
+<h2 id="getting_there">Getting there</h2>
+
+<p>If you don’t have a designer and/or a developer on your founding team, you could <a href="#building_a_team_outsourcing">hire someone</a>. This is a good option if you’re ready to build something right now. The tradeoff is you need to manage the relationship and that’s not easy.</p>
+
+<p>A great way to use consultants to your advantage is to have them teach you how <a href="#building_a_team_do_it_yourself">do it yourself</a> while they build early versions of the product. Our clients sometimes attend our <a href="http://workshops.thoughtbot.com/">workshops</a> and pair program with us on their product.</p>
+
+<p>If you’ve been working with consultants and the business becomes profitable or you raise money, you’ll have built the muscles:</p>
+
+<ul>
+<li>know how pros build products</li>
+
+<li>have relationships with folks in the industry</li>
+
+<li>have a better eye for <a href="#building_a_team_hiring">talent</a>
+</li>
+</ul>
+<div><a name="building_a_team_roles"></a></div>
+<h1 id="roles">Roles</h1>
+
+<p>What does the ideal web team look like?</p>
+
+<p>There’s <a href="http://www.quora.com/Startups/What-would-the-ideal-web-technology-start-up-team-be-composed-of">a good thread on Quora</a> on the subject. One of the catchier responses was “Hacker, Hustler, Designer”:</p>
+
+<blockquote>
+<p>The designer is customer facing and solving the customer problems, the hacker is hacking, and the hustler is in search of the business model.</p>
+</blockquote>
+
+<p>Our approach is similar. Our clients play the role of “hustler”, initiating the project after <a href="#getting_started_customer_development_">developing customers</a>.</p>
+
+<p>On the thoughtbot side, most of our project teams consist of 2 developers and 1 designer. One of the three team members acts as lead. An advisor assists the team for a few hours a week.</p>
+
+<h2 id="lead">Lead</h2>
+
+<p>The lead is responsible for the direction and organization of the project. They are either a designer or developer.</p>
+
+<p>The buck stops here. The success or failure of the project ultimately rests on the lead’s shoulders. It’s up to them to make the hard decisions, to delegate to others when they don’t have the time or skill to accomplish a task, and to keep team morale up.</p>
+
+<h2 id="designer">Designer</h2>
+
+<p>The designer is responsible for designing a <a href="#understanding_design_user_experience_">total customer experience</a>. They think through all the interaction points between customers and the product. They attempt to evoke emotions in users of the product and then monitor whether their attempts hit the mark.</p>
+
+<p>Assisting users to experience an emotion and understand content is a manipulation of the user’s behavior. So, the designer keeps in mind the values the product is projecting.</p>
+
+<p>They also implement. They write and maintain HTML and CSS code.</p>
+
+<h2 id="developers">Developers</h2>
+
+<p>The developers make it work. They write the code that makes the app “smart.” They aim to make the product error-free. They <a href="#setting_up_technical_infrastructure_performance_monitoring_">monitor performance</a> because speed is a feature of every application.</p>
+
+<p>They keep it running. They make architectural decisions and interact with modern-day hosting companies like <a href="http://heroku.com">Heroku</a> or <a href="http://www.bluebox.net/">Blue Box Group</a>, whose employees double as your outsourced operations team.</p>
+
+<p>The developers also implement. They write and maintain HTML, CSS, Javascript, Ruby, SQL, and lots of other code. They set and meet development standards, keep the Continuous Integration build passing, and review each others’ code.</p>
+
+<h2 id="advisor">Advisor</h2>
+
+<p>The advisor is an impartial counselor. They facilitate weekly retrospectives and counsel both the thoughtbot team and the client.</p>
+
+<p>The advisor also helps the rest of the team see how they look from an outside perspective. They express enthusiasm when the team is in a groove and serious guidance when things get off track.</p>
+
+<p>The advisor is usually <a href="http://thoughtbot.com/about/#cpytel">Chad</a>, <a href="http://thoughtbot.com/about/#mjankowski">Matt</a>, or <a href="http://thoughtbot.com/about/#dcroak">Dan</a>.</p>
+
+<h2 id="everyone">Everyone</h2>
+
+<p>While each person plays a role, a team needs to be a team.</p>
+
+<p>Everyone takes initiative every day: for delivering high quality work, for staying true to <a href="#getting_started_vision_">the vision</a> for the product, for communicating their schedule and intentions, and for being consistent.</p>
+
+<p>Nothing builds trust like doing what you said you would.</p>
+    
+<div><a name="building_a_team_outsourcing"></a></div>
+<h1 id="outsourcing">Outsourcing</h1>
+
+<p>Here’s a secret. Good consultants can be really helpful, but they’re expensive. The way to get the most out of consultants is to have them to teach you how to do what they do.</p>
+
+<p>thoughtbot and others, like <a href="http://pivotallabs.com/">Pivotal Labs</a>, make it a core part of our offering to teach the founders how to design and develop with our toolset. Or, we can help hire your team, pair programming with them on the product to ease the transition.</p>
+
+<p>When you outsource, you can hire your team slowly. The product is getting built, you’re learning what customers like and dislike about it, and you might even (shock) be bringing revenue in.</p>
+
+<p>There’s no unnecessary urgency to hire before you’re ready, or perhaps the cardinal sin of business, make the wrong hire.</p>
+
+<h2 id="look_local_first">Look local first</h2>
+
+<p>Creating a web product that matters to its users is difficult. Trying to work with a team across a vast geographical and maybe spoken language difference raises the degree of difficulty.</p>
+
+<p>We highly value <a href="#building_a_team_face_time_">face time</a>. As tempting as the savings may look, we don’t recommend hiring a distant team.</p>
+
+<p>Most of our clients are local to Boston. If you’re in San Francisco, New York, or Boulder, consider Pivotal. Chicago or Jacksonville: <a href="http://hashrocket.com">Hashrocket</a>. Ohio: <a href="http://edgecase.com/">Edgecase</a>. Indiana: <a href="http://orderedlist.com/">Ordered List</a>. Michigan: <a href="http://collectiveidea.com/">Collective Idea</a>. Portland Oregon: <a href="http://planetargon.com/">Planet Argon</a>. etc.</p>
+
+<h2 id="elance_and_odesk">Elance and oDesk</h2>
+
+<p>Sites like Elance and oDesk can connect you with many cheap developers around the world. Sometimes those developers are quite skilled. You might be tempted to augment the team with those developers and have them write modular code, such as a web service that interacts with your main app.</p>
+
+<p>In practice, the communication overhead between you and the freelancer, and between the freelancer and your existing developers, ends up eating into the cost savings.</p>
+
+<h2 id="99designs">99designs</h2>
+
+<p>Similarly, 99designs can connect you with many cheap designers around the world. Sometimes those designers are quite skilled. These look like great resources for certain tasks:</p>
+
+<ul>
+<li>designing business cards, stationary, other documents that a small number of your partners see</li>
+
+<li>designing a logo</li>
+</ul>
+<p>We can recommend them for the business documents use case.</p>
+
+<p>We recommend delaying work on a logo as long as possible. Have the designer pick a nice typeface to set your product’s name in and use that as the logo for now.</p>
+
+<p>Again, the danger is communication overhead between you and the freelancer, and between the freelancer and your existing developers. With user-facing design, there’s also the added danger of losing consistency in the <a href="#understanding_design_visual_design_">visual design</a>.</p>
+    
+<div><a name="building_a_team_do_it_yourself"></a></div>
+<h1 id="do_it_yourself">Do it yourself</h1>
+
+<p>As <a href="http://twitter.com/antrod">Antonio Rodriguez</a> of Matrix Partners says, <a href="http://robots.thoughtbot.com/post/3688721732/everybody-codes">everybody codes</a>.</p>
+
+<p>In the early days of a two or three person startup, you’re either making the product or talking to customers. Nothing else matters until the startup has reached product/market fit.</p>
+
+<p>It’s easier to code than you think. It’s 2011 and there is plenty of great <a href="#setting_up_technical_infrastructure">technology</a> available that have solved lower-level problems. You don’t need to hire someone to do it all.</p>
+
+<p>It’s difficult to hire someone until you’ve tried to do their job for a little while. It’s hard to know which questions to ask and how to identify quality. And those first few hires are critical. Learn to speak (well, code) the language and you’ll lower your hiring risk.</p>
+
+<p>There’s an incredible <a href="http://robots.thoughtbot.com/post/3310910483/a-shortage">shortage</a> of developers in San Francisco, New York, and Boston. Making progress yourself is a way to endear yourself to top talent and get them hired.</p>
+
+<p>Your coding doesn’t have to be perfect. If you’re developing the early prototype, it doesn’t have to scale and doesn’t need to be totally secure. The CTO you’ll hire later will re-write it, anyway.</p>
+
+<p>If you’re part of an early 2-5 person team, everyone has to be generalist. That means if you want a layout changed, do it with CSS. If you want to run a report, do it with SQL.</p>
+
+<p>Better than interrupting designers or developers during <a href="http://www.paulgraham.com/makersschedule.html">maker time</a>.</p>
+
+<p>Ask for privileges to commit to production with git, then earn it.</p>
+    
+<div><a name="building_a_team_hiring"></a></div>
+<h1 id="hiring">Hiring</h1>
+
+<p>Many of our clients consist of a founding team without a CTO-type figure. We know how crucial this hire is and have heard concerns from people that they can’t evaluate that person’s technical abilities.</p>
+
+<p>We interview and give hiring recommendations.</p>
+
+<p>A good software consultant should approach your team building just like product building. We want to make ourselves redundant. We don’t want to create a dependency on ourselves.</p>
+
+<p>If you’re not working with us, pay a friend of yours who is the best developer you know to run an interview.</p>
+    
+<div><a name="building_a_team_face_time"></a></div>
+<h1 id="face_time">Face time</h1>
+
+<p>We’ve set up our office so that our clients work at the same cluster of desks as our teams. Nothing beats in-person communication.</p>
+
+<p>Tools like <a href="http://campfirenow.com">Campfire</a> and <a href="https://www.apptrajectory.com">Trajectory</a> are great when you need them, but we could never feel comfortable with a totally distributed team. We understand people do it successfully, but we feel it raises the degree of difficulty unnecessarily.</p>
+
+<p>We’re fortunate to live in a city like Boston that is teeming with talented people. However, making the decision to have a strictly co-located team has the interesting ramification that eventually, you have to attract people to your city.</p>
+
+<p>Particularly via the open source community, we’ve done just that, <a href="http://bostinnovation.com/2011/04/12/a-community-based-approach-to-hiring-developers-hire-globally-work-locally/">hiring great people</a> from Michigan, Louisiana, Georgia, and Thailand.</p>
+    
+<div><a name="working_in_feedback_loops"></a></div>
+<h1 id="working_in_feedback_loops">Working in feedback loops</h1>
+
+<p>We’ll admit it. As hard as we try to make their projects successful, some of the startups we work with fail.</p>
+
+<p>Most often, the market doesn’t exist as expected. Sometimes it’s too expensive to create a user experience that will solve customers’ problems. Very rarely does the technology not work.</p>
+
+<p>On a smaller scale, every project has its ups and downs. When things aren’t clicking, it’s usually a communication problem.</p>
+
+<p>We try to minimize the risk of communication problems with:</p>
+
+<ul>
+<li><a href="#working_in_feedback_loops_discussions">Discussions</a></li>
+
+<li><a href="#working_in_feedback_loops_sketches">Sketches</a></li>
+
+<li><a href="#working_in_feedback_loops_user_stories">User stories</a></li>
+
+<li><a href="#working_in_feedback_loops_pair_programming">Pair programming</a></li>
+
+<li><a href="#working_in_feedback_loops_feature_branch_code_reviews">Feature branch code reviews</a></li>
+</ul>
+<div><a name="working_in_feedback_loops_discussions"></a></div>
+<blockquote>
+<p>I think the sidebar should be on the right, not the left.</p>
+</blockquote>
+
+<h1 id="discussions">Discussions</h1>
+
+<p>Instead of instruction, we want discussion. Saying something like “It’s hard to see against the background” or “it’s getting lost among in the other things on the bottom of the page” are better ways to communicate what you want.</p>
+
+<p>We can’t talk about solutions until we identify the underlying problems. As tempting as it is to jump a step ahead and try to think of a solution, we regularly find that there’s an advantage to posing things as problems instead.</p>
+
+<h2 id="written">Written</h2>
+
+<p>It’s valuable for project communication to be written down in a central repository such as <a href="https://www.apptrajectory.com">Trajectory</a>.</p>
+
+<p>When things are only said on the phone or in person, information gets lost, forgotten, or misinterpreted. The problems expand when someone joins or leaves the project.</p>
+
+<h2 id="saying_no">Saying no</h2>
+
+<p>We’ve been called “aggressive” with our approach cutting features, budgets, and schedules. We say “no” a lot.</p>
+
+<p>It’s hard to say “no.” “No” is usually not well-received. There’s a reason someone requested the feature, and “yes” is backed up by his friends “go get ‘em” and “we can do it.”</p>
+
+<p>We have to battle sometimes in the face of “yes”. We do so armed with knowledge of <a href="http://www.codinghorror.com/blog/2006/05/the-long-dismal-history-of-software-project-failure.html">the history of software success and failure</a>: in 2004, only 34% of software projects were considered successes.</p>
+
+<p>The good news is that was 100% better than the stats in 1994. “The primary reason is the projects have gotten a lot smaller.”</p>
+
+<p>Few software projects fail because they aren’t complicated enough.</p>
+
+<p>Saying “no” means keeping the software we’re building as simple as possible. Every line of code we write is an asset and a liability.</p>
+
+<p>Simple software, once launched, is better suited to meeting the demands of customers. Complex software, if it ever even launches, is not as able to respond to customer demands quickly.</p>
+    
+<div><a name="working_in_feedback_loops_sketches"></a></div>
+<blockquote>
+<p>A picture is worth a thousand words.</p>
+</blockquote>
+
+<h1 id="sketches">Sketches</h1>
+
+<p>When designing a user interface, it helps to… design the interface.</p>
+
+<p>This is a collaborative process from the team, not just the purview of those who know how to wield HTML, CSS, and Javascript.</p>
+
+<p>Paper (or a whiteboard) is a low-cost, effective way to quickly iterate through a ton of interface ideas. You can run usability tests on the paper prototypes.</p>
+
+<p>Consider investing $15-25 on <a href="http://www.northmay.com/cart/?action=addItem&amp;itemid=11">Field Notes graph paper</a> and/or a <a href="http://www.amazon.com/Moleskine-Square-Notebook-Cover-Large/dp/8883707184">Moleskine large soft square notebook</a> and get in the habit of designing interfaces whenever the mood strikes you.</p>
+    
+<div><a name="working_in_feedback_loops_user_stories"></a></div>
+<h1 id="user_stories">User Stories</h1>
+
+<p>We write user stories once we’ve figured out what subset of customers’ problems we will solve next, and enter them into <a href="https://www.apptrajectory.com">Trajectory</a>.</p>
+
+<p>User stories are written in a short, 3-part format:</p>
+
+<pre><code>As a [user role]
+I want to [goal]
+so that [reason]</code></pre>
+
+<p>There are no technical or interface details. Our clients prioritize the stories. We estimate the difficulty of the story on a scale of:</p>
+
+<pre><code>1, 2, 4, or 8 hours</code></pre>
+
+<p>Stories that are too complex to be estimated as a day or less are broken into smaller pieces.</p>
+<a href="https://www.apptrajectory.com"><img src="https://thoughtbot-handbook.s3.amazonaws.com/trajectory-screen.jpg" alt="Trajectory Story Tracker"></a>
+<p>This is about establishing and maintaining a cadence of work.</p>
+
+<ul>
+<li>Establish the correct user story is at top of queue</li>
+
+<li>Developers and designers figure out how to accomplish the user story faster, then estimate it</li>
+
+<li>Implement the story</li>
+
+<li>Deploy to staging</li>
+
+<li>Accept or reject</li>
+
+<li>Deploy to production</li>
+
+<li>Repeat</li>
+</ul>
+<h2 id="better_stories">Better stories</h2>
+
+<p>Keep stories atomic. If a separate discussion, user story, bug, or todo comes up, create it separately and paste a link to it in the comment. Trajectory will format it nicely and display the title of the linked item.</p>
+    
+<div><a name="working_in_feedback_loops_pair_programming"></a></div>
+<h1 id="pair_programming">Pair programming</h1>
+
+<p>Code that is written by two people who sit next to each at the same computer is pair-programmed code. That code is considered high quality and should result in cost savings due to less maintenance.</p>
+
+<p>In the long run, this style of development saves money because fewer bugs are written and therefore do not need to be fixed later.</p>
+
+<p>An indication that pairing is beneficial and should be done more often is the following example:</p>
+
+<p>When you are writing an important piece of code, don’t you want another person to look it over before it goes into production?</p>
+    
+<div><a name="working_in_feedback_loops_feature_branch_code_reviews"></a></div>
+<h1 id="feature_branch_code_reviews">Feature branch code reviews</h1>
+
+<p>Here’s the flow. Read <a href="http://blog.hasmanythrough.com/2008/12/18/agile-git-and-the-story-branch-pattern">Josh Susser’s post</a> for the git commands.</p>
+
+<ol>
+<li>Start a user story.</li>
+
+<li>Code the feature.</li>
+
+<li>Push the feature to a branch.</li>
+
+<li>A Github hook starts a CI build.</li>
+
+<li>A <a href="https://github.com/blog/570-campfire-service-hook-returns">Github Campfire hook</a> posts your work to Campfire.</li>
+
+<li>Click the link that’s in Campfire.</li>
+
+<li><strong>Click the Github “Pull Request” button.</strong></li>
+
+<li><strong>It selects all commits in your branch that are not in master.</strong></li>
+
+<li><strong>Create the pull request.</strong></li>
+
+<li><strong>Ask your team in Campfire for a review of the pull request.</strong></li>
+
+<li><strong>The team comments in-line, right on the code.</strong></li>
+
+<li>Make the suggested changes.</li>
+
+<li>Merge into master.</li>
+
+<li>Push to master.</li>
+
+<li>CI runs again.</li>
+
+<li>Deploy to staging.</li>
+</ol>
+<p>Many teams use this “feature branch” pattern. The “code review” part is the Github pull request to team comments.</p>
+
+<p>Here’s what a pull request looks like:</p>
+<a href="http://ui.thoughtbot.com/assets/pull-request.png"><img src="http://ui.thoughtbot.com/assets/pull-request.png" alt="Pull Request" width="480px"></a>
+<p>Notice the <code>jm-cm-client-sets-up-recurring-payment</code> branch is compared to master.</p>
+
+<p>And here’s what a comment on a commit looks like:</p>
+<a href="http://ui.thoughtbot.com/assets/commit-comment.png"><img src="http://ui.thoughtbot.com/assets/commit-comment.png" alt="Commit comment" width="480px"></a>
+<p><a href="#finding_a_rhythm_test_driven_development_">Test-Driven Development</a> moves code failure earlier in the development process. It’s better to have a failing test on your development machine than in production. It also allows you to have tighter feedback cycles.</p>
+
+<p>Code reviews that happen right before code goes into master offer similar benefits:</p>
+
+<ul>
+<li>The whole team learns about new code as it is written.</li>
+
+<li>Mistakes are caught earlier.</li>
+
+<li>Coding standards are more likely to be established, discussed, and followed.</li>
+
+<li>Feedback from this style of code review is far more likely to be applied.</li>
+
+<li>No one forgets context (“Why did we write this?”) since it’s fresh in the author’s mind.</li>
+</ul>
+<div><a name="finding_a_rhythm"></a></div>
+<h1 id="finding_a_rhythm">Finding a rhythm</h1>
+
+<p>Good teams build stuff customers want. They do it faster with fewer wasted cycles and fewer defects. Developers have more fun and write cleaner code. They do it at a constant pace that can be sustained indefinitely.</p>
+
+<ul>
+<li><a href="#finding_a_rhythm_sustainable_pace">Sustainable pace</a></li>
+
+<li><a href="#finding_a_rhythm_test_driven_development">Test-driven development</a></li>
+
+<li><a href="#finding_a_rhythm_daily_standups">Daily standups</a></li>
+
+<li><a href="#finding_a_rhythm_weekly_iterations">Weekly iterations</a></li>
+
+<li><a href="#finding_a_rhythm_monthly_rotations">Monthly rotations</a></li>
+</ul>
+<h2 id="hour_day_week_month">Hour, Day, Week, Month</h2>
+
+<p>There’s a natural rhythm to everyday life. Don’t fight it.</p>
+
+<ul>
+<li>Estimate user stories by the hour.</li>
+
+<li>Meet standing up by the day.</li>
+
+<li>Plan iterations by the week.</li>
+
+<li>Rotate people by the month.</li>
+</ul>
+<p>Other things are like breathing. Continuously run your test suite. Continuously deploy to production.</p>
+
+<h2 id="acceptance_tests">Acceptance Tests</h2>
+
+<p>Acceptance Tests are created from User Stories. They look like this:</p>
+
+<pre><code>Given I am signed in as an admin
+And a comment exists with a body of "Explicit"
+When I click on "Moderate comments"
+And I click the "delete" button for the "Explicit" comment
+And I confirm that I want to delete the comment
+Then I should see "Comment deleted."</code></pre>
+
+<p>This is executable code that is run against the application. When executed for the first time, the test will fail. The developer can then code until the test passes.</p>
+
+<p>When the test passes, the developer commits the code into version control with a message such as:</p>
+
+<pre><code>Comments can be moderated by admins</code></pre>
+
+<p>The code is then run on the <a href="http://ci.thoughtbot.com">Continuous Integration</a> server to make sure the acceptance test still passes in an environment that matches the production environment.</p>
+
+<p>Meanwhile, the code is pushed to the staging environment and the developer and customer representative smoke test it in the browser.</p>
+
+<p>When the acceptance test is green for the CI server and the developer and customer representative are satisfied that the user story is complete on staging, the feature can be deployed to production at will. This can result in features being pushed to production very frequently, and therefore more value is being delivered to customers sooner.</p>
+    
+<div><a name="finding_a_rhythm_sustainable_pace"></a></div>
+<h1 id="sustainable_pace">Sustainable pace</h1>
+
+<p>thoughtbot works 9-5, Monday-Friday.</p>
+
+<p>Energy is finite. Anyone working 12 hour days will not be doing their best work a few days in and will crash at some point.</p>
+
+<p>Extreme Programming advocates call this “Sustainable Pace.” Other than keeping everyone fresh, it makes planning more predictable as the past becomes more indicative of future performance.</p>
+
+<p>Startup lore is filled with glorious stories of late nights eating Ramen and coding out those features that will make millions. Reality is that the best features were probably created during bank hours.</p>
+    
+<div><a name="finding_a_rhythm_test_driven_development"></a></div>
+<h1 id="testdriven_development">Test-driven development</h1>
+
+<p>Test-driven development (TDD) is the most important <a href="http://www.extremeprogramming.org/rules.html">Extreme Programming (XP)</a> practice we use. We can’t overstate that.</p>
+
+<p>Business benefits of TDD:</p>
+
+<ul>
+<li>Deliver more value, faster</li>
+
+<li>Always ship working software</li>
+
+<li>Adapt to change quickly</li>
+</ul>
+<p>Code benefits of TDD:</p>
+
+<ul>
+<li>Readable specs and code</li>
+
+<li>Clean public interfaces</li>
+
+<li>Decoupled modules</li>
+</ul>
+<p>Process benefits of TDD:</p>
+
+<ul>
+<li>Regression safety net</li>
+
+<li>Fearless refactoring</li>
+
+<li>Team trust</li>
+</ul>
+<h2 id="how_to_test">How to test</h2>
+
+<p>At a high level, it’s very simple:</p>
+
+<ul>
+<li>Write test first.</li>
+
+<li>Red-Green-Refactor cycle.</li>
+</ul>
+<p>For more specifics, we recommend our <a href="http://workshops.thoughtbot.com/courses/8">Test-Driven Rails</a> workshop, which we run about once a month. It goes into incredible detail about the TDD workflow specifically for Ruby on Rails developers.</p>
+    
+<div><a name="finding_a_rhythm_daily_standups"></a></div>
+<h1 id="daily_standups">Daily standups</h1>
+
+<p>Every morning, we get together as a team for 10 minutes at 10 AM.</p>
+
+<p>We say:</p>
+
+<ul>
+<li>What we did yesterday.</li>
+
+<li>What we’re going to do today.</li>
+
+<li>If anything is blocking us.</li>
+</ul>
+<p>We immediately resolve blockers or help the person after standup.</p>
+
+<p>We do this in order to:</p>
+
+<ul>
+<li>See each other face-to-face.</li>
+
+<li>Learn what others are doing so if you face the same problem later, you know who to ask for help.</li>
+
+<li>Learn what others are doing so you can help them if you’ve solved the same problem before.</li>
+
+<li>Build accountability and trust.</li>
+</ul>
+<div><a name="finding_a_rhythm_weekly_iterations"></a></div>
+<h1 id="weekly_iterations">Weekly iterations</h1>
+
+<p>We like to enjoy our weekends. They give our bodies a rest and let our unconscious minds help us solved problems we struggled with the previous week.</p>
+
+<p>On Mondays, we hold weekly retrospectives. Everyone on the team gets together and:</p>
+
+<ul>
+<li>Says how they’re feeling</li>
+
+<li>Opens the application, the real thing, and judges its current state</li>
+
+<li>Says what concerns they have and ways to address them</li>
+
+<li>Estimates user stories for the upcoming iteration</li>
+</ul>
+<h2 id="status_updates">Status updates</h2>
+
+<p>We recently saw one of our clients do something we thought was also effective. They sent out a simple email to their stakeholders (development team, investors, etc.), held themselves accountable for last week’s work, and made promises for the upcoming week.</p>
+
+<p>Here’s a sample:</p>
+
+<blockquote>
+<p>Team,</p>
+
+<p>Please take time to sign up for our beta and please help to promote our site by sending the link to your friends and colleagues: http://example.com.</p>
+
+<p>This is an exciting time for us, as we’re getting close to having an alpha. Our goal was to get to market within two months of beginning development. It looks like we’re going to be well under two months. I believe this rapid development means that investors and shareholders are getting good value.</p>
+
+<p>ACCOMPLISHMENTS FOR THE WEEK ENDING xx/xx/xx:</p>
+
+<ul>
+<li>Naming. We finally were able to purchase the final domain name and trademark. We own the previous mark and registered the mark under new categories.</li>
+
+<li>Fundraising. New investors onboard.</li>
+
+<li>Basic site workflow of searching records - you can now do this on the site.</li>
+
+<li>Merchant Account. Merchant account in place.</li>
+
+<li>Customer service. Support App is in place</li>
+</ul>
+<p>GOALS FOR THE WEEK BEGINNING xx/xx/xx</p>
+
+<ul>
+<li>Start working on uploading products through system. Start to seed database.</li>
+
+<li>Get to alpha. Test both upload and download of products through the system.</li>
+</ul>
+<p>Please let me know if you have any questions (xxx.xxx.xxxx). Thanks so much for your hard work this week.</p>
+
+<p>If you’d like to unsubscribe to our weekly updates, please let me know.</p>
+
+<p>Thanks, Founder</p>
+</blockquote>
+
+<p>Feel free to borrow this format or invent your own. The key is to keep the whole team working together, and to create future momentum by continuing to build on recent success.</p>
+    
+<div><a name="finding_a_rhythm_monthly_rotations"></a></div>
+<h1 id="monthly_rotations">Monthly rotations</h1>
+
+<p>We are a company of about 20 people. We break into 4 teams for project work. We rotate team members about every 2 months.</p>
+
+<p>The benefit to clients of team rotations is increased quality.</p>
+
+<p>Each person brings something unique with them. Maybe they’re quick with Javascript, have deep knowledge of Postgres, have a knack for logo design, etc. We want to spread those skills around.</p>
+
+<p>Each time we’ve rotated, the new team members immediately find code that drives them nuts. The existing team had built up a tolerance to some normally offensive code after seeing it every day. Code quality goes up.</p>
+
+<p>We build better pattern recognition. What’s the same on every project? How should <a href="https://github.com/thoughtbot/suspenders">Suspenders</a> evolve? What’s the boring stuff that we’re doing frequently and can be extracted?</p>
+
+<p>When a project continues across a rotation, we try to keep one person on the team for consistency. We do lots of pair programming right after the rotation.</p>
+
+<p>Another goal is for people to work on as few simultaneous projects as possible. We used work on 3-4 projects a week. That’s too much context switching.</p>
+    
+<div><a name="setting_up_technical_infrastructure"></a></div>
+<h1 id="setting_up_technical_infrastructure">Setting up technical infrastructure</h1>
+
+<p>Talked to a bunch of customers? Platform chosen? Team assembled? Work style agreed upon? Time to start making the thing.</p>
+
+<ul>
+<li><a href="#setting_up_technical_infrastructure_domain_names_ssl_certificates">Domain names and SSL certificates</a></li>
+
+<li><a href="#setting_up_technical_infrastructure_application_hosting">Application hosting</a></li>
+
+<li><a href="#setting_up_technical_infrastructure_asset_hosting">Asset hosting</a></li>
+
+<li><a href="#setting_up_technical_infrastructure_transactional_email">Transactional email</a></li>
+
+<li><a href="#setting_up_technical_infrastructure_performance_monitoring">Performance monitoring</a></li>
+
+<li><a href="#setting_up_technical_infrastructure_error_tracking">Error tracking</a></li>
+</ul>
+<div><a name="setting_up_technical_infrastructure_domain_names_ssl_certificates"></a></div>
+<h1 id="domain_names_and_ssl_certicates">Domain names and SSL certicates</h1>
+
+<p>If you’re trying to create a consumer brand, make something up.</p>
+
+<p>Etsy, Zynga, <a href="https://hoptoadapp.com">Hoptoad</a>. Short and memorable. Somewhat easy to spell. You dominate searches. Those words meant nothing until they imbued them with their own brands’ meaning. Easier to get a domain name that isn’t crazy long + Twitter account, etc.</p>
+
+<h2 id="domain_name_availability">Domain name availability</h2>
+
+<p>Try <a href="http://domai.nr">Domainr</a> to see what’s available.</p>
+
+<h2 id="buying_maintaining_domain_names">Buying, maintaining domain names</h2>
+
+<p>We recommend <a href="http://dnsimple.com">DNSimple</a> to buy and maintain your domain name. If you already have a domain registered elsewhere, like GoDaddy, DNSimple provides a transfer service that makes it easy to switch.</p>
+
+<p>We like for its simplicity. It also has templates we most often need:</p>
+
+<ul>
+<li>Heroku</li>
+
+<li>Google Apps</li>
+
+<li>Tumblr</li>
+</ul>
+<h2 id="ssl_certificates">SSL certificates</h2>
+
+<p>DNSimple also provides SSL certificates. We recommend them.</p>
+    
+<div><a name="setting_up_technical_infrastructure_application_hosting"></a></div>
+<h1 id="application_hosting">Application hosting</h1>
+
+<p>Your web application needs to live somewhere, whether it be server hardware that’s exclusive to you, or shared with other sites.</p>
+
+<p>We recommend <a href="http://heroku.com">Heroku</a>.</p>
+    
+<div><a name="setting_up_technical_infrastructure_asset_hosting"></a></div>
+<h1 id="asset_hosting">Asset hosting</h1>
+
+<p>You may want to offer file uploads for features like user avatars.</p>
+
+<p>We recommend: <a href="http://aws.amazon.com/s3/">Amazon S3</a>. <a href="http://aws.amazon.com/s3/pricing/">Pricing</a> is metered by data size.</p>
+    
+<div><a name="setting_up_technical_infrastructure_transactional_email"></a></div>
+<h1 id="transactional_email">Transactional email</h1>
+
+<p>You may need an email sending service for your application to send automated email to your users, known as <a href="http://www.foundrygroup.com/wp/2010/04/foundry-group-invests-in-sendgrid/">transactional email</a>. We recommend: <a href="http://sendgrid.com">SendGrid</a>. (Free-$400/month)</p>
+
+<p>Examples of transactional email are:</p>
+
+<ul>
+<li>Confirmations</li>
+
+<li>Follow ups after the first 3 days of use</li>
+
+<li>Free trial is expiring</li>
+
+<li>Message another user in the system</li>
+</ul>
+<p>Note this is not the same as your <a href="#choosing_process_tools_business_email_and_docs">business’ email</a>.</p>
+    
+<div><a name="setting_up_technical_infrastructure_performance_monitoring"></a></div>
+<h1 id="performance_monitoring">Performance monitoring</h1>
+
+<p>How do you know when it’s time to upgrade your hosting service? How do you know which pages on your site are the fastest and slowest to respond?</p>
+
+<ul>
+<li>Site traffic. We recommend: <a href="http://google.com/analytics">Google Analytics</a> (Free).</li>
+
+<li>Performance. We recommend: <a href="http://www.newrelic.com">NewRelic RPM</a> (Free-$43/month).</li>
+</ul>
+<h2 id="fixing_performance_problems">Fixing performance problems</h2>
+
+<p>This might be the best part of a developer’s job. There’s a clear, numeric problem. When you fix it, that number improves. You can say things like “I made this 175% better.”</p>
+
+<p>There’s many established techniques for fixing performance problems. We cover them in detail in <a href="http://workshops.thoughtbot.com/courses/8">Scaling Rails</a>.</p>
+
+<p>A number of them come “for free” with Rails + Heroku:</p>
+
+<ul>
+<li>Amazon server clusters</li>
+
+<li><a href="https://www.varnish-cache.org/">Varnish</a></li>
+
+<li>
+<a href="http://nginx.net/">nginx</a> with <a href="https://github.com/gnosek/nginx-upstream-fair">fair proxy balancer</a> module</li>
+
+<li>gzipping</li>
+
+<li><a href="http://code.macournoyer.com/thin/">Thin</a></li>
+
+<li><a href="http://ryanbigg.com/guides/asset_pipeline.html">Asset pipeline</a></li>
+
+<li><a href="http://guides.rubyonrails.org/caching_with_rails.html#sql-caching">SQL query caching</a></li>
+</ul>
+<p>A number of them require developer thought:</p>
+
+<ul>
+<li>Database indexing</li>
+
+<li>Eager loading</li>
+
+<li>HTTP caching</li>
+</ul>
+<h2 id="pause_for_statistical_porno">Pause for statistical porno</h2>
+
+<p>The nginx web server can handle well over 50 million hits a day of static content. Thin app servers can handle about 2 million hits a day of static content. Those are pretty big numbers. They also suggest we can get a 25x improvement with page caching when possible:</p>
+
+<pre><code># config/environments/production.rb
+config.action_controller.perform_caching = true</code></pre>
+    
+<div><a name="setting_up_technical_infrastructure_error_tracking"></a></div>
+<h1 id="error_tracking">Error tracking</h1>
+
+<p>We recommend <a href="http://airbrakeapp.com">Airbrake</a> (Free-$25/month).</p>
+    
+<div><a name="choosing_process_tools"></a></div>
+<h1 id="choosing_process_tools">Choosing process tools</h1>
+
+<p>We live in a magical modern era where many problems have already been solved for us. Focus on what makes your app unique from everyone else. Outsource everything else to cloud services.</p>
+
+<p>This saves time and money. Get started using it in minutes. Pay a service dozens of dollars instead of paying developers thousands.</p>
+
+<ul>
+<li><a href="#choosing_process_tools_business_email_and_docs">Business email and docs</a></li>
+
+<li><a href="#choosing_process_tools_version_control">Version control</a></li>
+
+<li><a href="#choosing_process_tools_project_management">Project management</a></li>
+
+<li><a href="#choosing_process_tools_customer_support">Customer support</a></li>
+
+<li><a href="#choosing_process_tools_payment_processing">Payment processing</a></li>
+</ul>
+<div><a name="choosing_process_tools_business_email_and_docs"></a></div>
+<h1 id="business_email_and_docs">Business email and docs</h1>
+
+<p>We recommend <a href="http://www.google.com/apps/">Google Apps</a>. ($50/person/year).</p>
+
+<p>It’s a one-click process to set up the MX records for your email’s <a href="#setting_up_technical_infrastructure_domain_names_ssl_certificates">domain name</a> using DNSimple. You’ll get some nice URLs like:</p>
+
+<ul>
+<li>mail.yourapp.com</li>
+
+<li>docs.yourapp.com</li>
+
+<li>calendar.yourapp.com</li>
+</ul>
+<div><a name="choosing_process_tools_version_control"></a></div>
+<h1 id="version_control">Version control</h1>
+
+<p>There’s only one choice for version control today and that’s <a href="http://git-scm.com/">git</a>.</p>
+
+<p>It’s fast, incredibly useful, and becoming widely understood: we ran an event for 300 college students in 2011 who aspired to work at web startups and 80% of the crowd raised their hand when we asked if they knew git.</p>
+
+<p>We recommend <a href="http://github.com">Github</a> for hosting your git repositories.</p>
+
+<p>It is free-$200/month.</p>
+    
+<div><a name="choosing_process_tools_project_management"></a></div>
+<h1 id="project_management">Project management</h1>
+
+<p>For project communication, user story planning, emergent iterations, we recommend an app we wrote:</p>
+
+<p><a href="http://apptrajectory.com">Trajectory</a> (30-day free trial, $10/month).</p>
+
+<p>We have also heavily used:</p>
+
+<ul>
+<li>Basecamp</li>
+
+<li>Pivotal Tracker</li>
+
+<li>JIRA</li>
+
+<li>Lighthouse</li>
+</ul>
+<p>We don’t feel it’s necessary to have a separate bug tracker. We believe it’s important to have a great discussion tool (like Basecamp) integrated into the same system as a great story planner (like Pivotal Tracker). Trajectory is the realization of our beliefs.</p>
+    
+<div><a name="choosing_process_tools_customer_support"></a></div>
+<h1 id="customer_support">Customer support</h1>
+
+<p>We personally use <a href="http://tenderapp.com">Tender</a> (30-day free trial, $19-$199/month) for our products. It is pretty easy to set up and use. It fits well for customer support of other developers.</p>
+
+<p>We’ve had clients who didn’t think Tender was a good enough reflection on them as a world-class customer service organization and instead evaluated:</p>
+
+<ul>
+<li>
+<a href="http://zendesk.com">Zendesk</a> ($24/month per agent)</li>
+
+<li>
+<a href="http://uservoice.com/helpdesk">UserVoice’s Helpdesk</a> ($35/month per agent)</li>
+</ul>
+<p>Both of those two products offer free trials so you can quickly evaluate both yourself.</p>
+    
+<div><a name="choosing_process_tools_payment_processing"></a></div>
+<h1 id="payment_processing">Payment processing</h1>
+
+<p>For your payment gateway, merchant account, and recurring billing, we recommend: <a href="http://www.braintreepaymentsolutions.com/">Braintree</a>.</p>
+
+<p>Charges for Braintree will vary depending on your usage. Their <a href="http://www.braintreepaymentsolutions.com/pricing">pricing page</a> has full details.</p>
+
+<ul>
+<li>One-time payments. We recommend: Braintree</li>
+
+<li>Recurring billing. We recommend: Braintree</li>
+
+<li>Sending money to users. We recommend: <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home-merchant">PayPal Merchant Services</a>.</li>
+</ul>
+<p>Another option people seriously consider for processing payments is PayPal Website Payments Pro because it’s easy to get going. We usually rule it out for the following reasons:</p>
+
+<ul>
+<li>It’s rare that PayPal will be cheaper on a month-to-month basis compared to an internet merchant approach like Braintree. See the <a href="http://feefighters.com/paypal-calculator">Fee Fighters PayPal Calculator</a>. The caveat is that if it takes you too long to implement Braintree, it could take years of healthy transactions to make up the setup cost.</li>
+
+<li>PayPal may hold 25% for 3 months as fraud protection. That can hurt depending on your business’ cash flow.</li>
+</ul>
+<div><a name="understanding_design"></a></div>
+<blockquote>
+<p>“Most people make the mistake of thinking design is what it looks like. People think it’s this veneer — that the designers are handed this box and told, ‘Make it look good!’ That’s not what we think design is. It’s not just what it looks like and feels like. Design is how it works.” - Steve Jobs</p>
+</blockquote>
+
+<h1 id="understanding_design">Understanding design</h1>
+
+<p>Our strongest opinions regarding design are about roles and decision-making.</p>
+
+<ul>
+<li><a href="#understanding_design_user_experience">User experience</a></li>
+
+<li><a href="#understanding_design_visual_design">Visual design</a></li>
+
+<li><a href="#understanding_design_usability_testing">Usability testing</a></li>
+
+<li><a href="#understanding_design_agile_design">Agile design</a></li>
+</ul>
+<h2 id="great_design_wont_happen_overnight">Great Design Won’t Happen Overnight</h2>
+
+<ul>
+<li>We can produce good design in a relatively short timespan, but producing design that meets our standards takes time.</li>
+
+<li>Great design requires research, experimentation, and revisions.</li>
+
+<li>
+<a href="http://thoughtbot.com/design">Here are examples</a> of design that we feel are great. All of these went through many changes and look entirely different then when they were originally conceived.</li>
+</ul>
+<h2 id="functionality_trumps_style">Functionality trumps style</h2>
+
+<p>Since all visual design prompts subjective reactions that can be strong, it can be difficult to come to a consensus. Our sites are built to be used, not merely to be looked at, so the style should not take precedence over the functionality. We should advocate for the needs of the user, not the whims of the client. Asking certain questions can help to highlight why something should be done one way as opposed to another:</p>
+
+<ul>
+<li>Does it add value to the site?</li>
+
+<li>Does it communicate something important to the user?</li>
+
+<li>Does it make the site easier to use?</li>
+
+<li>Does it have a function within the site, or is decoration?</li>
+</ul>
+<h2 id="what_doesnt_work">What doesn’t work</h2>
+
+<ul>
+<li>The client uses outside designers such as 99designs to influence or supplement the design. This is often done with the goal of saving money.</li>
+
+<li>thoughtbot doesn’t clarify the brand vision or target audience.</li>
+
+<li>More than one or two people on the client side are influencing the design.</li>
+
+<li>The client is making requests for color, layout, or other design element instead of accepting or rejecting the designs on the basis of the brand vision or target audience.</li>
+</ul>
+<h2 id="why_it_doesnt_work">Why it doesn’t work</h2>
+
+<ul>
+<li>Design by committee results in a <a href="http://dustincurtis.com/dear_dustin_curtis.html">design that is the lowest common denominator</a>.</li>
+
+<li>Design by committee results in a lack of cohesiveness in the design.</li>
+
+<li>It’s never totally clear exactly how much or which parts of the outside design to integrate.</li>
+
+<li>It’s slow.</li>
+
+<li>It pulls the rug out from underneath the designer before he or she gets started.</li>
+
+<li>The focus is on things that don’t matter as much.</li>
+</ul>
+<div><a name="understanding_design_user_experience"></a></div>
+<h1 id="user_experience_ux">User experience (UX)</h1>
+
+<p>If there’s a more desired person by startup founders than a good Rails developer, it’s a good UX designer. However, like Bigfoot, no one can really agree on what that person looks like.</p>
+
+<p>Solid arguments can be made that <a href="#getting_started_strengths_">user experience is the most important thing</a> a web or mobile app should focus on:</p>
+
+<ul>
+<li>a great product is one a customer emotionally engages with</li>
+
+<li>user experience is the only real relationship a customer has with your company</li>
+
+<li>a product is necessary but not sufficient</li>
+
+<li>people rationalize their purchases but typically make them emotionally and certainly stay connected to the product emotionally, not rationally</li>
+
+<li>people are willing to pay more for an emotionally positive experience</li>
+</ul>
+<h2 id="definition">Definition</h2>
+
+<p>User experience is what your user feels, sees, hears, and touches.</p>
+
+<h2 id="who_does_it">Who does it?</h2>
+
+<p>We like to say <a href="http://workshops.thoughtbot.com/courses/9">Everybody Codes</a>, which is shorthand for saying on small web teams, everyone is a maker. We could just as easily say “Everybody Sells” or “Everybody Designs Experiences” but we think the raw act of hands typing code is a better visual to focus on.</p>
+
+<p>In our opinion, this is the CEO’s role. The person in charge is ultimately responsible for delivering a positive user experience. He or she then delegates certain tasks.</p>
+
+<p>We don’t think you should hire a “UX designer.” Definitely <a href="#building_a_team_roles">hire a designer</a>, but their role includes user experience, visual design, usability testing, writing HTML and CSS, etc.</p>
+
+<h2 id="how_is_it_done">How is it done?</h2>
+
+<p>Here are some actions we take that we think results in a positive user experience:</p>
+
+<ul>
+<li>ruthlessly <a href="#working_in_feedback_loops_discussions">cutting features</a>
+</li>
+
+<li>basing all development work off <a href="#working_in_feedback_loops_user_stories">user stories</a>
+</li>
+
+<li>showing potential customers <a href="#working_in_feedback_loops_sketches">paper prototypes</a>
+</li>
+
+<li>using high-quality <a href="#understanding_design_visual_design">visual design</a>
+</li>
+
+<li><a href="#understanding_design_usability_testing">usability testing</a></li>
+
+<li>
+<a href="#finding_a_rhythm_weekly_iterations">iterating</a> based on customer feedback</li>
+
+<li>providing great <a href="#choosing_process_tools_customer_support">customer support</a>
+</li>
+
+<li>using realistic test data and site copy instead of lorem ipsum</li>
+
+<li>
+<a href="#choosing_platforms">choosing platforms that are fast</a> and <a href="#setting_up_technical_infrastructure_performance_monitoring">monitoring performance</a>
+</li>
+</ul>
+<div><a name="understanding_design_visual_design"></a></div>
+<h1 id="visual_design">Visual design</h1>
+
+<p>Most designers we know have had some formal training in this area, but we recommend other team members, especially developers who are on the front lines of editing HTML and CSS, also <a href="http://workshops.thoughtbot.com/courses/2">learn the fundamentals of visual design</a>.</p>
+
+<p>Those fundamentals include, among others:</p>
+
+<ul>
+<li>Alignment (often achieved with grids)</li>
+
+<li>Emphasis (often achieved with size, position, color)</li>
+
+<li>Consistency (buttons, links, headers typically look alike)</li>
+
+<li>Whitespace (elegant, timeless, gives eye a rest)</li>
+</ul>
+<p>Successful visual designs typically don’t draw attention to themselves. The content will be front-and-center. The workflows through the site will be obvious. Resist the temptation to aim for a design that is “memorable” or a design that “pops.”</p>
+
+<p>Successful designs are usable. Consider Google’s new visual design.</p>
+<a href="https://thoughtbot-handbook.s3.amazonaws.com/google-mail.png">
+  <img src="https://thoughtbot-handbook.s3.amazonaws.com/google-mail.png" alt="Google Mail" width="480px"></a>
+<p>Everything’s on a grid. The “Search Mail” and “Compose Mail” buttons are emphasized over other calls to action with color. The unread messages are emphasized over other messages with bolding.</p>
+<a href="https://thoughtbot-handbook.s3.amazonaws.com/google-search.png">
+  <img src="https://thoughtbot-handbook.s3.amazonaws.com/google-search.png" alt="Google Search" width="480px"></a>
+<p>Everything’s on a grid. Lots of whitespace (especially with <a href="https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom">AdBlock</a> on). Consistent search interface as mail. Search button emphasized with color.</p>
+<a href="https://thoughtbot-handbook.s3.amazonaws.com/google-video.png">
+  <img src="https://thoughtbot-handbook.s3.amazonaws.com/google-video.png" alt="Google Video" width="480px"></a>
+<p>Grids. Whitespace. Consistent search box, search filters, search results.</p>
+<a href="https://thoughtbot-handbook.s3.amazonaws.com/google-places.png">
+  <img src="https://thoughtbot-handbook.s3.amazonaws.com/google-places.png" alt="Google Places" width="480px"></a>
+<p>Grids. Whitespace. Emphasis on searching and writing a review.</p>
+    
+<div><a name="understanding_design_usability_testing"></a></div>
+<blockquote>
+<p>We’re testing the software, not you.</p>
+</blockquote>
+
+<h1 id="usability_testing">Usability testing</h1>
+
+<p>Usability is how easy an application is for the user to use.</p>
+
+<p>If it is intended for power users, it should be easy to remember what to do and designed for efficiency. If it’s a landing page trying to convert as many visitors into customers, it should be easy for the visitor to learn what the product is and easy for them to sign up and easy for them to try the product, etc.</p>
+
+<h2 id="how_to_run_usability_tests">How to run usability tests</h2>
+
+<p><a href="http://www.amazon.com/Rocket-Surgery-Made-Easy--Yourself/dp/0321657292/">Steve Krug’s works</a> are the canonical resources for usability testing. Here’s his major points and how we’ve implemented them.</p>
+
+<p>“A morning a month, that’s all we ask.” We set up usability testing every other Thursday at our office. Any project can sign up.</p>
+
+<p>“Start earlier than you’d think.” We often test sketches. The earlier the stage, the more we’re testing the problem/solution fit. The later the stage, the more we’re testing actual usability.</p>
+
+<p>“Recruit loosely and grade on a curve.” Our office manager puts a posting on Craigslist, schedules them to come into our office, and pays them $30 for their time after the test.</p>
+
+<p>“Make it a spectator sport.” We have one person sitting next to the test subject, guiding them through the test. We use <a href="http://silverbackapp.com/">Silverback</a> to record the screen and their face and the rest of the team watches the test from another room and makes comments in real-time without disturbing the test. No one watches the recordings.</p>
+
+<p>“Focus ruthlessly on a small number of the most important problems.” After the session, we identify the top handful of problems and fix them before the next round of usability tests.</p>
+
+<p>“When fixing problems, do the least you can do.” If there’s a problem revealed with the navigation, there’s a temptation to totally re-do it. We try to resist that urge and come up with less drastic changes.</p>
+
+<p>Finally, and we love this line, when the participant arrives and we introduce ourselves and explain the process, always remind them “we’re testing the software, not you.” It’s not “user testing”, it’s “usability testing.” Ask them to say out loud what they’re thinking as they’re using the software, which can feel unnatural but is important.</p>
+    
+<div><a name="understanding_design_agile_design"></a></div>
+<h1 id="agile_design">Agile design</h1>
+
+<p>When building software for the web, there are many different actionable states of a specific design element that get built during the HTML/CSS wireframing phase (e.g. add, edit, update).</p>
+
+<p>These states typically do not make it into the wireframes because it would be too time-consuming. Usually, with a clear understanding of the designers vision via a sketch or discussion, these states are better left for developers to create first.</p>
+
+<p>When the initial HTML markup and functionality is in place, a designer will proceed to take over to refine the UX and visual design. HTML/CSS wireframes are built using <a href="https://github.com/thoughtbot/high_voltage">High Voltage</a> and are located in the app/views/pages directory.</p>
+
+<p>It is crucial to keep the design of the application ahead of the development. Focus should be placed on wireframing usability, UX, flows, and personas. These larger chunks require wireframes to be done first to be successful with our outside-in process.</p>
+
+<p>We find it important to keep the design and development cycle adequately tight. We do not wireframe one month out due to the fact that we often decide to cut features during the week prior, or week of, while building the application.</p>
+
+<p>We often do not wireframe one month out, because as we approach certain areas of the application while designing and developing, the requirements and features change. The change in requirements is part of the iterative process and feedback loop from the client, the thoughtbot team, and from user-testing. It would be wasteful to spend time wireframing features that never get built.</p>
+    
+<div><a name="measuring_results"></a></div>
+<blockquote>
+<p>“If you can not measure it, you can not improve it.” – Lord Kelvin</p>
+</blockquote>
+
+<h1 id="measuring_results">Measuring results</h1>
+
+<p>Here’s what we want to measure:</p>
+
+<ul>
+<li>
+<a href="#measuring_results_aarrr">AARRR</a>: the high-level metrics framework</li>
+
+<li>
+<a href="#measuring_results_cohorts">Cohorts</a>: a.k.a. “Retention” a.k.a. “Happiness” (most important)</li>
+
+<li>
+<a href="#measuring_results_viral_coefficient">Viral coefficient</a>: pour fuel on the fire</li>
+</ul>
+<h2 id="how_to_measure">How to measure</h2>
+
+<p>It doesn’t take long to get started, and it’s costly to reconstruct historical measurements. Get started earlier rather than later:</p>
+
+<ul>
+<li>
+<a href="#measuring_results_tools">Measurement tools</a>: set ‘em and forget ‘em</li>
+</ul>
+<h2 id="acting_on_measurements">Acting on measurements</h2>
+
+<p>Once you start measuring, then you can make improvements:</p>
+
+<ul>
+<li>
+<a href="#measuring_results_a_b">A/B testing</a>: improving parts of the workflow</li>
+</ul>
+<h2 id="rules_of_thumb">Rules of thumb</h2>
+
+<p>Here are some typical numbers you can use to save yourself spreadsheet and research time:</p>
+
+<ul>
+<li>10% conversion home page to free trial</li>
+
+<li>10% conversion from free trial to paid plan</li>
+
+<li>1% conversion from free forever to paid plan</li>
+
+<li>$100,000/year cost per employee</li>
+
+<li>30% of registered users (or number of downloads if a mobile app) will use the service each month</li>
+
+<li>10% of registered users (or number of downloads if a mobile app) will use the service each day</li>
+
+<li>10% of daily users is equal to the max number of concurrent users of a real-time service</li>
+</ul>
+<p>The last three are from <a href="http://www.avc.com/a_vc/2011/07/301010.html">Fred Wilson</a>.</p>
+    
+<div><a name="measuring_results_aarrr"></a></div>
+<h1 id="aarrr">AARRR</h1>
+
+<p>Dave McClure’s <a href="http://www.slideshare.net/dmc500hats/startup-metrics-4-pirates-london-march-2011">Startup Metrics for Pirates</a> is a good framework for thinking about macro metrics:</p>
+
+<ul>
+<li>Acquisition</li>
+
+<li>Activation</li>
+
+<li>Retention</li>
+
+<li>Referral</li>
+
+<li>Revenue</li>
+</ul>
+<p>Focus on them in this order:</p>
+
+<ol>
+<li>Activation, Retention (happiness)</li>
+
+<li>Acquisition, Referral (virality)</li>
+
+<li>Revenue (sustainability)</li>
+</ol>
+<p>Most of our clients are early stage, focused on getting a product built that makes customers happy and keeps them around. That means we want to:</p>
+
+<ul>
+<li>Instrument a dashboard</li>
+
+<li>Gauge customer happiness</li>
+
+<li>Test customer adoption (# of users, # paying)</li>
+
+<li>Automate emails after sign up (3 days no activity, 30 days free trial ending)</li>
+</ul>
+<p>Here’s an example of a marketing dashboard for <a href="http://pbb.fm">pbb.fm</a>:</p>
+<img src="https://thoughtbot-handbook.s3.amazonaws.com/aarrr.png" alt="Marketing dashboard"><p>Once customers love the product and know what conversion rates currently are, we’ll help you optimize conversion and build referral mechanisms into the app at points immediately <strong>after</strong> users have a happy experience.</p>
+
+<p>At that point, we can help you measure a <a href="#measuring_results_viral_coefficient">viral growth coefficient</a>. If it’s greater than 1.0, you have a hit on your hands:</p>
+
+<blockquote>
+<p>X * Y * Z</p>
+</blockquote>
+
+<ul>
+<li>X = % of users who invite other people</li>
+
+<li>Y = average # of people they invited</li>
+
+<li>Z = % of users who accepted an invitation</li>
+</ul>
+<div><a name="measuring_results_cohorts"></a></div>
+<h1 id="cohorts">Cohorts</h1>
+
+<p>A cohort is a group of users that joined during a particular time period. We care about tracking cohorts because it more accurately tells us whether users love the app than aggregate (website) statistics like Google Analytics can tell us.</p>
+
+<p><a href="http://andrewchen.typepad.com/andrew_chens_blog/2007/12/4-scenarios-for.html">Andrew Chen</a> has a good example:</p>
+
+<pre><code>Unique actions by Week 1 cohort:
+
+week 1: 100,000
+week 2: 50,000
+week 3: 25,000
+
+Unique actions by Week 2 cohort:
+
+week 2: 125,000
+week 3: 50,000</code></pre>
+
+<p>Between weeks 1 and 2, there’s a:</p>
+
+<ul>
+<li>25% increase in new users (100k to 125k)</li>
+
+<li>40% decrease in retention (50k/100k versus 50k/125k)</li>
+</ul>
+<p>So, the site sucks despite good aggregate stats:</p>
+
+<pre><code>week 1 uniques: 100,000
+week 2 uniques: 175,000</code></pre>
+
+<h2 id="retention_coefficient">Retention coefficient</h2>
+
+<p>More from Andrew Chen: <a href="http://andrewchenblog.com/wp-content/uploads/2008/03/Viral_and_Retention_model.xls">download his retention model spreadsheet</a> and look at the third page.</p>
+
+<p>When you have as high as 80% retention, your app will die unless you have crazy, Groupon- or Match.com-like paid marketing going into the top of your funnel. The graph will look like a “shark fin.”</p>
+
+<p>It takes 95%-100% retention to have a winner.</p>
+    
+<div><a name="measuring_results_viral_coefficient"></a></div>
+<h1 id="viral_coefficient">Viral coefficient</h1>
+
+<pre><code>I * CR = K
+
+I = Invitations
+CR = conversion rate of invitations
+K = viral coefficient</code></pre>
+
+<p>For “viral growth”, we need a viral coefficient greater than 1.</p>
+
+<p>You’ll sometimes hear people call the viral coefficient the <a href="http://framethink.wordpress.com/2008/01/15/the-four-viral-app-objectives-aka-social-network-application-virality-101/">K-factor</a>.</p>
+
+<h2 id="built_into_the_product">Built into the product</h2>
+
+<p>Viral growth cannot be executed by <a href="http://workshops.thoughtbot.com/courses/9">a marketing department that can’t code</a>. It has to be built into the product by developers. We want outcomes like:</p>
+
+<ul>
+<li>Active, happy users invite many new users</li>
+
+<li>Active, happy users share lots of our app’s content</li>
+
+<li>Active, happy users use the app longer</li>
+</ul>
+<p>To get a viral coefficient of 1 or better, we might need numbers as good as:</p>
+
+<ul>
+<li>10% of users to invite their friends</li>
+
+<li>10 invitations per user</li>
+
+<li>10 content shares per user</li>
+
+<li>10% of users active every day</li>
+
+<li>10 repeat visits per user every month</li>
+
+<li>10% of invitations to be accepted</li>
+</ul>
+<p>That should sound hard. To achieve those numbers, we might want to use these techniques:</p>
+
+<ul>
+<li>Single-step invite flows</li>
+
+<li>Encourage users to invite friends or share content only at times when user is happiest or really wants to take another action (“To see this video, invite 3 friends.”).</li>
+
+<li>Address book importers</li>
+
+<li>User-to-user messaging</li>
+
+<li>Collaborative filtering for content recommendations</li>
+</ul>
+<p>Those are things that developers have to implement, not traditional marketers. Great copy and calls to action are still important, but the viral mechanisms have become engineering tasks.</p>
+    
+<div><a name="measuring_results_tools"></a></div>
+<h1 id="measurement_tools">Measurement tools</h1>
+
+<p>Google Analytics is free and provides nice general traffic stats. Use it to get a sense of audience size and determine your largest traffic sources.</p>
+
+<p><a href="https://www.kissmetrics.com">KISSmetrics</a> costs but is worth it. Set up AARRR metrics and use it as a dashboard. Build signup and engagement funnels to see where your biggest dropoffs are, and target your optimization. It has out-of-the-box support for SaaS-specific events and metrics. It shows A/B test results across your funnels. It knows when users were referred by ad campaigns.</p>
+    
+<div><a name="measuring_results_a_b"></a></div>
+<blockquote>
+<p>“We don’t split-test or talk to customers to decide if we should abandon our vision. Instead, we test to find out how to achieve the vision in the best possible way.” - Eric Ries, <a href="http://www.startuplessonslearned.com/2010/04/learning-is-better-than-optimization.html">Learning is Better than Optimization</a></p>
+</blockquote>
+
+<h1 id="ab_testing">A/B testing</h1>
+
+<p>Once your app is well-instrumented with measurements, you get a clearer picture of the AARRR funnel and see where the biggest problems are. Seeing this, it might be clear how to fix the issue. It might help <a href="#understanding_design_usability_testing">to put the flow in front of someone else</a>.</p>
+
+<p>But some problems are rooted deeper in users’s minds. Someone can tell you when they’re confused by a page with too many things going on, when they’re frustrated by too many upsells during the checkout process. They probably can’t honestly tell you whether one set of copy or another is more likely to make them feel an affinity with your landing page, pull out their wallet, and plunk down cash.</p>
+
+<p>So you don’t tell them they’re in an experiment, and you let their actions do the talking instead.</p>
+
+<p>The <a href="http://blog.kissmetrics.com/">KISSmetrics Marketing Blog</a> has excellent A/B testing content. For example, read their article on <a href="http://blog.kissmetrics.com/test-landing-pages-for-maximum-conversions/">testing landing pages</a>.</p>
+
+<p>From our experience, the most important thing about improving conversion on a landing page is eliminating steps the user can take before signing up for your free trial or immediately using the service.</p>
+
+<p>We want the user to feel the service is useful as quickly as possible. Generate a feeling of “yes, this is for me!” within seconds, and validate their first impression within minutes.</p>
+
+<p>If you need people to sign up before doing anything interesting with your app, we recommend streamlining the sign up form to one (or maybe two) fields:</p>
+
+<ol>
+<li>email</li>
+
+<li>(maybe) password</li>
+</ol>
+<div><a name="budgeting"></a></div>
+<h1 id="budgeting">Budgeting</h1>
+
+<p>How much money do we need to make this a reality?</p>
+
+<ul>
+<li><a href="#budgeting_cost">Cost</a></li>
+
+<li><a href="#budgeting_fundraising">Fundraising</a></li>
+</ul>
+<div><a name="budgeting_cost"></a></div>
+<h1 id="cost">Cost</h1>
+
+<p>In New York City, you can buy a condo for $500k, and you can buy one for $20 million. They both include heat and hot water, and they both put a roof over your head. Pricing web applications isn’t that much different. The cheap option will save you money, but you’ll uncover a leaky roof that needs to be replaced sooner than later. On the high end, you’ll find that the $3000 espresso machine that was custom built to fit into your marble kitchen probably doesn’t make coffee that much better than a $30 pot would have.</p>
+
+<h2 id="guessing_games">Guessing games</h2>
+
+<p>The tradition in client services is to take a vaguely worded spec document and submit an exact timeframe and bid for certain (vaguely worded) deliverables. If you turn out to somehow be exactly right, everyone’s happy. If you turn out to have gone over on time and can’t deliver, the client sues you. If you turn out to have guessed under on time, you walk away with a massive profit and the client probably got screwed. Isn’t there a better way?</p>
+
+<p>We don’t do fixed-bid fixed-feature-set proposals. This contract style sets the vendor and client working against each other instead of with each other, right from day one. Instead of <em>discussing</em> how a feature should be built, or what assumptions were wrong, you spend time <em>negotiating</em> about what was meant in a document written a long time ago. But it’s worse than negotiating – it’s retroactively discussing something that no one will remember the same way anyway.</p>
+
+<h2 id="how_we_do_pricing">How we do pricing</h2>
+
+<p>We price our projects with a resources per week model. For a given price, you are getting the equivalent of one week’s worth of effort (approximately a 40 hour work week) from one of our employees. We use the same rate for designers, developers, project managers, whatever. The iteration will dictate which skills and people are actually needed in a given week, and the resource level (1 person, 2 people, 3 people, …) will determine the cost, and how much gets done.</p>
+
+<p>We don’t track time, and you won’t receive an itemized invoice showing individual pieces of work that were done. You will have constant insight into what’s happening via access to a story tracking tool and by constantly communicating with our project team. Typically, a project that’s starting from scratch will have 2 or 3 people worth of time working on it from the start.</p>
+
+<h2 id="typical_costs">Typical Costs</h2>
+
+<p>Coming up with an “average” project isn’t really representative of anything that’s actually happened, but these are guidelines to use for what a normal project looks like:</p>
+<table>
+<thead><tr>
+<th>Size</th>
+<th>Budget</th>
+<th>Timeline</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Small</td>
+<td style="text-align: left;">$50k - $100k</td>
+<td style="text-align: left;">6-10 weeks of development</td>
+</tr>
+<tr>
+<td style="text-align: left;">Medium</td>
+<td style="text-align: left;">$100k - $250k</td>
+<td style="text-align: left;">4-6 months of development</td>
+</tr>
+<tr>
+<td style="text-align: left;">Large</td>
+<td style="text-align: left;">$500k - $1m+</td>
+<td style="text-align: left;">12+ months of development</td>
+</tr>
+</tbody>
+</table>
+<p>Note that the size here is not necessarily indicative of the raw complexity of the finished product. Sometimes to get to a very simple application you have to build it a few times before you finally get there.</p>
+
+<p>On multiple occasions we’ve started with a project which had a budget under $50k for their “v1” product, and followed that up with a round of funding or actual revenue to continue development, which then put it in line with the “Small” range above.</p>
+
+<h2 id="time_based_versus_milestone_based">Time based versus milestone based</h2>
+
+<p>We sometimes have clients who don’t understand why we don’t do milestone based or “fixed bid” pricing for consulting engagements. We explain that it is no different than hiring an employee. Same thing, except we’re easier to fire.</p>
+
+<h2 id="typical_engagement">Typical Engagement</h2>
+
+<p>These things have all happened successfully:</p>
+
+<ul>
+<li>Multi-year contracts with existing businesses, supplementing their internal development teams.</li>
+
+<li>3-6 month contracts where we explicitly replace ourselves with an internal team at the end.</li>
+
+<li>Multi year engagement where we work 2 months on, 4 off, 1 on, 6 off – by jointly coordinating time and budget with clients.</li>
+
+<li>Wireframe-only or consulting-only contract where we provide design or business consulting without code deliverables – typically 1-2 month engagement.</li>
+</ul>
+<h2 id="how_to_invest">How to invest</h2>
+
+<p>Are you building a hobby or side business to bring in another $5k/year? It’s probably not worth hiring us to build it.</p>
+
+<p>Do you have a good idea for a web based business and believe you have the funding and team to make it a reality … but need some guidance on the technology and build out? Get in touch.</p>
+    
+<div><a name="budgeting_fundraising"></a></div>
+<h1 id="fundraising">Fundraising</h1>
+
+<h2 id="lifestyle_or_venturescale_business">Lifestyle or venture-scale business?</h2>
+
+<ul>
+<li>Lifestyle: founders do not intend to sell. They intend to extract profits from the business in perpetuity. Typically less than $10 million annual revenue.</li>
+
+<li>Venture-scale: more than $10 million in annual revenue with potential for more than $100 million.</li>
+</ul>
+<p>There is nothing wrong with either model. 37signals argues that founders will be happier with the lifestyle business model. thoughtbot falls into this category. Our clients fall into both.</p>
+
+<p>Let us know which one you are so we can help achieve your goals.</p>
+
+<h2 id="bank_loan">Bank loan</h2>
+
+<p>What businesses historically do. Two main differences between a bank loan and an angel investor:</p>
+
+<ul>
+<li>A bank loan is non-dilutive. Meaning, the founders keep 100% equity.</li>
+
+<li>Banks want their money back, with interest. If your company fails, you still need to pay back the money. An angel investor wants to make a profit but knows that there’s a good chance they’ll never see their money back.</li>
+</ul>
+<h2 id="angels">Angels</h2>
+
+<p><a href="http://venturehacks.com/intro">Get introductions to angels</a> by using AngelList.</p>
+
+<h2 id="incubators">Incubators</h2>
+
+<ul>
+<li>Y-Combinator</li>
+
+<li>TechStars</li>
+</ul>
+<blockquote>
+<p>“The new face of VC is on producing startups with intrinsic value (not IPOs).” <a href="http://www.slideshare.net/trendcaller/the-new-face-of-venture-capital-20100304b?from=ss_embed">The New Face of Venture Capital</a></p>
+</blockquote>
+
+<h2 id="pitching">Pitching</h2>
+
+<ul>
+<li><a href="http://www.quora.com/Brendan-Baker/Startups-How-to-Communicate-Traction-to-Investors">How to communicate traction to investors</a></li>
+
+<li><a href="http://bryce.vc/post/4085241146/the-anatomy-of-a-y-combinator-demo-day-pitch">6 slides</a></li>
+</ul>
+<div><a name="using_trends"></a></div>
+<h1 id="trends">Trends</h1>
+
+<p>Internet businesses have their fair share of trends. Five years ago, our clients wanted to build social networks with tags and friends.</p>
+
+<p>Today, the top requests are:</p>
+
+<ul>
+<li>
+<a href="#using_trends_social_sharing">Social sharing</a>, particularly with Facebook</li>
+
+<li>
+<a href="#using_trends_game_mechanics">Game mechanics</a>, like Zynga</li>
+
+<li>
+<a href="#using_trends_location_awareness">Location-awareness</a>, like Foursquare</li>
+
+<li>
+<a href="#using_trends_deals">Deals</a>, like Groupon</li>
+</ul>
+<div><a name="using_trends_social_sharing"></a></div>
+<h1 id="social_sharing">Social sharing</h1>
+
+<p>A goal like “share our content as broadly as possible” puts our company’s needs before those of users. It’s low friction (one click) and will get our content into a massive network. Sounds good, but how does a user clicking the Facebook <a href="http://developers.facebook.com/docs/reference/plugins/like/">Like button</a> benefit them?</p>
+
+<p>Let’s think in user stories instead.</p>
+
+<pre><code>As a user with a Facebook account,
+I want to share a video of Rajon Rondo with a few of my Boston Celtics-loving friends.</code></pre>
+
+<p>It’s rare that we’ll have content that will be broadly applicable to a user’s entire social network. In this use case, I have a few Facebook friends in mind with whom I want to share the content. This is a perfect scenario for the Facebook <a href="http://developers.facebook.com/docs/reference/plugins/send/">Send button</a>.</p>
+
+<p>The Send button can track <a href="http://facebook.com/insights">basic analytics and demographics</a>.</p>
+
+<p>Let’s try another.</p>
+
+<pre><code>As a user without a Facebook account,
+I want to share a video of Rajon Rondo with a few of my Boston Celtics-loving friends.</code></pre>
+
+<p>Facebook’s huge but not everyone has an account or enjoys using the service. Many of us prefer email or other means. In that case, all we need is a URL, preferably shortened, that users can copy and paste wherever they please. Youtube has been doing this for years:</p>
+<img src="https://thoughtbot-handbook.s3.amazonaws.com/youtube-sharing.png" alt="Youtube sharing"><p>This feature has the added benefit of being very easy to implement.</p>
+    
+<div><a name="using_trends_game_mechanics"></a></div>
+<h1 id="game_mechanics">Game mechanics</h1>
+
+<p>First, we want to be careful of cargo-cult game mechanics. Features like the following warrant extra scrutiny:</p>
+
+<ul>
+<li>Leaderboards</li>
+
+<li>Activity feeds</li>
+
+<li>Points</li>
+
+<li>Badges</li>
+</ul>
+<p>If the feature does pass scrutiny, consider using <a href="http://redis.io/">Redis</a> to implement them. For example, look at the <a href="https://github.com/agoragames/leaderboard">leaderboard gem</a> by Agora Games.</p>
+
+<p>Redis is a good fit for these scenarios because it’s great at storing moderate amounts of fast-changing data.</p>
+
+<p>For activity feeds, we like the <a href="https://github.com/jamesgolick/timeline_fu">timeline_fu</a> library. It’s ActiveRecord-based and beautifully simple.</p>
+
+<h2 id="significant_achievements">Significant achievements</h2>
+
+<p>Dennis Crowley has talked about his desire for Foursquare’s badges to <a href="http://thenextweb.com/location/2010/03/16/foursquare-dennis-crowley-talks-revenue-api-brands-badge/">reflect truly significant achievements</a>. Not a bad rule of thumb.</p>
+
+<p>A successful example of game mechanics is in <a href="http://uservoice.com/helpdesk">UserVoice’s Helpdesk product</a>:</p>
+<img src="https://thoughtbot-handbook.s3.amazonaws.com/user-voice-scores.png" alt="UserVoice Helpdesk"><p>This is a personal scoreboard telling the user how well they’re handling customer support. It animates and changes color each time the user responds to customer support requests, providing little hits of encouragement.</p>
+
+<p>It totally changes the attitude of customer support from a chore to something a little fun.</p>
+
+<h2 id="points">Points</h2>
+
+<p>School is a game. Class rank is a leaderboard. A professor in Indiana decided the A-F grading system sucked so he re-designed it so that you start the class with 0 points, and build points for attendance, assignments turned in on time, etc. Your A-F grade at the end of the semester is calculated based on your semester’s worth of points.</p>
+
+<h2 id="behavior_change">Behavior change</h2>
+
+<p>The reason our clients are interested in game mechanics is because they have been wildly successful, particularly by Zynga. They drive behavior change, and we want to affect the behavior of our users, right?</p>
+
+<p>Influencing behavior change in others brings with it significant moral implications. Are we comfortable using psychology and design techniques to make people behave in ways that their conscious brain might not even be aware of?</p>
+    
+<div><a name="using_trends_location_awareness"></a></div>
+<h1 id="location_awareness">Location awareness</h1>
+
+<p>At this point in internet history, we can usually operate on the assumption that we can get the user’s location.</p>
+
+<p>Here’s how easy it is to use the HTML5 geolocation API:</p>
+
+<pre><code>navigator.geolocation.getCurrentPosition(function(position) {
+  console.log(position.coords.latitude + " " +
+              position.coords.longitude);
+})</code></pre>
+
+<p>Paste that into your browser’s Javascript console and you should see your current latitude and longitude.</p>
+
+<p>On an iPhone, users get a message like:</p>
+<img src="https://thoughtbot-handbook.s3.amazonaws.com/would-like-to-use-your-current-location.PNG" alt="Would like to use your current location" width="350px"><p>Here’s a slightly more complex example that displays a static map and uses <a href="http://code.google.com/p/geo-location-javascript/">geo.js</a> for better cross-browser compatibility:</p>
+
+<pre><code>function success(position) {
+  var latitude  = position.coords.latitude;
+  var longitude = position.coords.longitude;
+  var mapUrl    = "http://maps.google.com/maps/api/staticmap?center=" +
+    latitude + "," + longitude +
+    "&amp;zoom=14&amp;size=320x160&amp;sensor=false"
+  $('#map').attr('src', mapUrl).show();
+}
+function failure(failureMessage) {
+  $('#geolocation-failure').show();
+}
+if (geo_position_js.init()) {
+  geo_position_js.getCurrentPosition(
+    success, failure,
+    { enableHighAccuracy : true }
+  );
+}</code></pre>
+
+<h2 id="gps">GPS</h2>
+
+<p>See that <code>enableHighAccuracy</code> option in the last example?</p>
+
+<p>If our users access use a device like newer iPhones, their phone will use its GPS chip instead of triangulating based on cell towers.</p>
+
+<h2 id="geocoding">Geocoding</h2>
+
+<p>We recommend the <a href="https://github.com/alexreisner/geocoder">geocoder gem</a> for:</p>
+
+<ul>
+<li>geocoding (lat/lng by street or IP address)</li>
+
+<li>reverse geocoding (street address by lat/lng)</li>
+
+<li>distance queries</li>
+</ul>
+<p>It works great with ActiveRecord and <a href="http://mongoid.org/">Mongoid</a>:</p>
+
+<pre><code>class Location
+  include Mongoid::Document
+  include Geocoder::Model::Mongoid
+
+  field :coordinates, :type =&gt; Array
+  field :address, :default =&gt; ""
+
+  geocoded_by :address
+
+  after_validation :geocode
+
+  def lat
+    to_coordinates.first
+  end
+
+  def lng
+    to_coordinates.last
+  end
+
+  def nearby_images
+    Instagram.media_search(lat, lng)
+  end
+end</code></pre>
+
+<h2 id="mongodb_geospatial_indexing">MongoDB geospatial indexing</h2>
+
+<p>MongoDB has great <a href="http://www.mongodb.org/display/DOCS/Geospatial+Indexing">geospatial indexing</a> that makes it a good fit for geocoded objects. We recommend using it specifically for that need.</p>
+
+<p>You can have a dominantly Postgres-backed application that uses Mongo only for location use cases. Mongoid will sit nicely side-by-side with ActiveRecord.</p>
+    
+<div><a name="using_trends_deals"></a></div>
+<h1 id="deals">Deals</h1>
+
+<p>Instead of trying to fill empty seats in restaurants that just aren’t that good by driving the price down, what if we focused on improving the total customer experience of restaurant patrons?</p>
+    
+<div><a name="working_in_boston"></a></div>
+<h1 id="working_in_boston">Working in Boston</h1>
+
+<p>Boston is a great place to found and run a web business. This is meant to be a navigational guide around town.</p>
+
+<ul>
+<li><a href="#working_in_boston_places">Places</a></li>
+
+<li><a href="#working_in_boston_people">People</a></li>
+
+<li><a href="#working_in_boston_events">Events</a></li>
+</ul>
+<div><a name="working_in_boston_places"></a></div>
+<h1 id="boston_places">Boston places</h1>
+
+<p>Where can you meet other folks in the Boston tech community?</p>
+
+<p>All links go to Google Maps for easy findability on your phone.</p>
+
+<h2 id="coffee_shops">Coffee shops</h2>
+
+<p>Our criteria for coffee shops are:</p>
+
+<ul>
+<li>good coffee</li>
+
+<li>good WiFi</li>
+
+<li>on the Red Line</li>
+</ul>
+<p>Ordered by their Red Line T stop:</p>
+
+<ul>
+<li>Harvard Square: <a href="http://goo.gl/09lMj">Crema Cafe</a>
+</li>
+
+<li>Central Square: <a href="http://goo.gl/PzYGz">1369 Coffee House</a>, free wifi</li>
+
+<li>Central Square: <a href="http://goo.gl/QrZyA">Atomic Bean</a>, free wifi, easy parking</li>
+
+<li>Central Square: <a href="http://goo.gl/hvTPX">C3</a>, free one-hour wifi</li>
+
+<li>Kendall Square: <a href="http://goo.gl/nyIOe">Voltage Cafe</a>
+</li>
+
+<li>Kendall Square: <a href="http://goo.gl/AtpPM">Area Four</a>, also great for dinner</li>
+
+<li>Charles / MGH: <a href="http://goo.gl/sJIUu">Paramount</a>, more of a diner, great for breakfast</li>
+
+<li>Park St: <a href="http://goo.gl/USIAA">Thinking Cup</a>, best coffee drinks in Boston</li>
+
+<li>South Station: <a href="http://goo.gl/d7lT0">Flour</a>, the Fort Point Channel one. If it’s winter, take the Silver Line to the Courthouse stop. Shorter walk.</li>
+</ul>
+<p>Overrated:</p>
+
+<ul>
+<li>Central Square: Andala Cafe. Never found the people who work there to be very nice.</li>
+</ul>
+<h2 id="bars">Bars</h2>
+
+<p>There’s a mysterious connection between hackers and craft beer.</p>
+
+<p>Ordered by their Red Line T stop:</p>
+
+<ul>
+<li>Central Square: <a href="http://goo.gl/XJRTv">Bukowski’s</a>, walk Prospect St to Inman Square</li>
+
+<li>Central Square: <a href="http://goo.gl/sqGKO">Lord Hobo</a>, in no-mans land between Kendall, Central, and Inman Squares</li>
+
+<li>Park St: <a href="http://goo.gl/juolV">Stoddard’s Pub</a>, Ladder District</li>
+
+<li>Park St: <a href="http://goo.gl/lelEN">Scholars</a>, scene of the infamous Ruby Riot</li>
+</ul>
+<h2 id="event_spaces">Event spaces</h2>
+
+<p>Ordered by their Red Line T stop:</p>
+
+<ul>
+<li>Kendall Square: <a href="http://g.co/maps/xc7k">the NERD</a>
+</li>
+
+<li>Park St: <a href="http://g.co/maps/qtj8">thoughtbot office</a>
+</li>
+</ul>
+<p>Extending to the Silver Line:</p>
+
+<ul>
+<li>Courthouse: <a href="http://g.co/maps/xhdu">Bocoup office</a>
+</li>
+
+<li>Courthouse: <a href="http://g.co/maps/f2z3">MassChallenge</a>
+</li>
+</ul>
+<h2 id="coworking_spaces">Coworking spaces</h2>
+
+<p>Ordered by their Red Line T stop:</p>
+
+<ul>
+<li>Kendall Square: <a href="http://g.co/maps/jmgr">Dogpatch Labs</a>
+</li>
+
+<li>Kendall Square: <a href="http://g.co/maps/dbph">CIC</a>
+</li>
+
+<li>South Station: <a href="http://g.co/maps/yhe8">Workbar</a>
+</li>
+</ul>
+<p>Extending to the Silver Line:</p>
+
+<ul>
+<li>Courthouse: <a href="http://g.co/maps/xhdu">Bocoup office</a>
+</li>
+</ul>
+<div><a name="working_in_boston_people"></a></div>
+<h1 id="boston_people">Boston people</h1>
+
+<p>Here are some folks you might want to interact with.</p>
+
+<h2 id="hiring_designers_and_developers">Hiring designers and developers</h2>
+
+<p>Attend user group meetings like Boston Ruby and Boston Javascript. (see “Events” above)</p>
+
+<p>Get to know designers and developers by their work and their peers’ interest in their work. Designers hang out on Dribbble. Developers hang out on Github. Develop relationships from however you like from there.</p>
+
+<ul>
+<li><a href="http://dribbble.com/search/users?q=boston">Boston Dribbblers</a></li>
+
+<li><a href="https://github.com/search?type=Users&amp;language=ruby&amp;q=location:boston">Boston Ruby Githubbers</a></li>
+</ul>
+<h2 id="investors">Investors</h2>
+
+<p>The etiquette for the investing world is to have someone know by both parties make the introduction between entrepreneur and investor. We sometimes make introductions for our clients to local investors we know. We feel comfortable making an introduction to:</p>
+
+<ul>
+<li>Ace Bhattacharjya, angel</li>
+
+<li>Adam Marchick, <a href="http://www.baincapitalventures.com">Bain</a>
+</li>
+
+<li>Angus Davis, angel</li>
+
+<li>Antonio Rodriguez, <a href="http://www.matrixpartners.com">Matrix</a>
+</li>
+
+<li>Daniel Weinreb, angel</li>
+
+<li>Dharmesh Shah, angel</li>
+
+<li>Dustin Dolginow, <a href="http://www.atlasventure.com">Atlas</a>
+</li>
+
+<li>Lee Hower, <a href="http://www.nextviewventures.com">NextView</a>
+</li>
+
+<li>Matt Witheiler, <a href="http://www.flybridge.com">Flybridge</a>
+</li>
+
+<li>Reed Sturtevant, <a href="http://project11.com">Project 11</a>
+</li>
+
+<li>Roy Rodenstein, angel</li>
+
+<li>Sim Simeonov, angel</li>
+
+<li>Tom Egan, <a href="http://www.launch-capital.com">Launch Capital</a>
+</li>
+
+<li>Wan Li Zhu, <a href="http://fairhavencapital.com">Fairhaven</a>
+</li>
+</ul>
+<h2 id="lawyers">Lawyers</h2>
+
+<p>These lawyers are startup specialists.</p>
+
+<ul>
+<li><a href="http://cooley.com">Cooley</a></li>
+
+<li><a href="http://www.foleyhoag.com">Foley Hoag</a></li>
+
+<li>
+<a href="http://gesmer.com">Gesmer Updegrove</a> (our lawyer)</li>
+</ul>
+<div><a name="working_in_boston_events"></a></div>
+<h1 id="boston_events">Boston events</h1>
+
+<p>There are some great local tech events to learn and recruit at. The ones we’ve been to and can recommend are:</p>
+
+<ul>
+<li>
+<a href="http://design.thoughtbot.com">Boston Web Designers Group</a>, third Thursday night at thoughtbot</li>
+
+<li>
+<a href="http://bostonrb.org">Boston Ruby Group</a>, Tuesday nights</li>
+
+<li>
+<a href="http://www.meetup.com/javascript-2/">Boston Javascript Group</a>, monthly event at the <a href="#working_in_boston_places">NERD or Bocoup</a>
+</li>
+
+<li><a href="http://nosqlsummer.org/city/boston">NoSQL Summer</a></li>
+
+<li><a href="http://groups.google.com/group/boston-software-craftsmanship">Boston Software Craftsmanship</a></li>
+</ul>
+<p>We haven’t been to, but are hearing good things about:</p>
+
+<ul>
+<li><a href="http://www.meetup.com/Boston-DevOps-Meetup/">Boston DevOps Group</a></li>
+
+<li><a href="http://www.meetup.com/Boston-CouchDB/">Boston CouchDB</a></li>
+
+<li><a href="http://www.meetup.com/bostonhadoop/">Boston Hadoop</a></li>
+
+<li><a href="http://www.meetup.com/Boston-Predictive-Analytics/">Boston Predictive Analysis</a></li>
+
+<li><a href="http://www.meetup.com/Boston-HTML5-Game-Development/">Boston HTML5 Game Development</a></li>
+</ul>
+<p>Less hardcore tech, more meet-and-greet:</p>
+
+<ul>
+<li>
+<a href="http://boston.going.com/event-122245;OpenCoffee_Club">OpenCoffee</a>, every Wednesday morning at <a href="#working_in_boston_places">Voltage</a>
+</li>
+
+<li>
+<a href="http://webinnovatorsgroup.com/">WebInno</a>, quarterly demos, 1000 people show up</li>
+</ul>
+</body>
+</html>
